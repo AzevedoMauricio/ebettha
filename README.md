@@ -6,27 +6,25 @@
 
 # Nome do projeto
 
-## Nome do grupo
+## Ebettha
 
 ## :student: Integrantes: 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 5</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 6</a> 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 7</a>
+- <a href="https://www.linkedin.com/in/eduarda-cardoso-de-souza-8bb802268/">Eduarda Cardoso de Souza</a>
+- <a href="https://www.linkedin.com/in/gabriellysilvavitor/">Gabrielly Silva Vitor</a>
+- <a href="https://www.linkedin.com/in/luan-ramos-de-mello-253b28268/">Luan Ramos de Mello</a> 
+- <a href="https://www.linkedin.com/in/omatheusrsantos/">Matheus Ribeiro dos Santos</a> 
+- <a href="https://www.linkedin.com/in/mauricio-azevedo-neto/">Maurício de Azevedo Neto</a>
+- <a href="https://www.linkedin.com/in/murilo-prianti-0073111a1/">Murilo de Souza Prianti Silva</a> 
+- <a href="https://www.linkedin.com/in/%C3%B3lin-medeiros-costa-b0a1b426a/">Ólin Medeiros Costa</a>
 
 ## :teacher: Professores:
 ### Orientador(a) 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 1</a>
+- <a href="https://www.linkedin.com/in/fabiana-martins-de-oliveira-8993b0b2/">🧭 Fabiana Martins de Oliveira </a>
 ### Instrutores
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 5</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 6</a> 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 7</a>
+- <a href="https://www.linkedin.com/in/fatima-toledo/">📈 Fátima Toledo - Professora de Business</a>
+- <a href="https://www.linkedin.com/in/cristiano-benites-687647a8/">👨‍💻 Cristiano Benites - Professor de Programação</a> 
+- <a href="https://www.linkedin.com/in/francisco-escobar/">🎨 Francisco Escobar - Professor de Design UX/UI </a> 
+- <a href="https://www.linkedin.com/in/geraldo-magela-severino-vasconcelos-22b1b220/">🧮 Geraldo Magela -Professor de Programação</a>
 
 ## 📝 Descrição
 
