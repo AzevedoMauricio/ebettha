@@ -3,15 +3,18 @@
 ```
 INSTRUÇÕES GERAIS (remova este trecho ao final)
 
-Você deve editar este documento utilizando notação markdown - siga as convenções neste link 
+Você deve editar este documento utilizando notação markdown - siga as convenções neste link
 https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 ```
 
 ## Nome da Solução
+
 ### Nome do grupo
+
 #### (preencha aqui os nomes dos integrantes, em ordem alfabética, separados por vírgula)
 
 ## Sumário
+
 [1. Introdução](#c1)
 
 [2. Objetivos e Justificativa](#c2)
@@ -26,15 +29,16 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 
 [Anexos](#attachments)
 
-
 ## <a name="c1"></a>1. Introdução
 
-&nbsp; &nbsp; O início de carreira é um momento muito tempestuoso na vida dos jovens. Isso porque programas de trainee podem chegar a ser quase 30 vezes mais concorridos do que entrar no curso mais disputado da Universidade de São Paulo, que apresenta uma proporção de 118 candidatos para cada vaga. É nesse contexto que entra em jogo a Bettha, uma empresa nascida em 2017 como braço direito do grupo Cia de Talentos e que visa preparar e desenvolver pessoas antes mesmo do processo seletivo para as empresas.  
+&nbsp; &nbsp; &nbsp; O início de carreira é um momento muito tempestuoso na vida dos jovens. Isso porque programas de trainee podem chegar a ser quase 30 vezes mais concorridos do que entrar no curso mais disputado da Universidade de São Paulo, que apresenta uma proporção de 118 candidatos para cada vaga. É nesse contexto que entra em jogo a Bettha, uma empresa nascida em 2017 como braço direito do grupo Cia de Talentos e que visa preparar e desenvolver pessoas antes mesmo do processo seletivo para as empresas.
 
-&nbsp; &nbsp; Outra questão que merece destaque é o fato do Brasil ser o país com o maior índice de turnover dentro das organizações, tendo o dobro da média mundial. Dessa forma, a empresa acaba perdendo o dinheiro investido no recrutamento. Para driblar essa realidade, a Bettha mapeia o perfil comportamental, aderência à cultura e conhecimentos específicos de cada candidato e gera um match entre vagas e participante. Assim, o desafio deste projeto é elevar o nível de assertividade desse match, ajudando na redução das taxas de turnover.
+&nbsp; &nbsp; &nbsp; Outra questão que merece destaque é o fato do Brasil ser o país com o maior índice de turnover dentro das organizações, tendo o dobro da média mundial. Dessa forma, a empresa acaba perdendo o dinheiro investido no recrutamento. Para driblar essa realidade, a Bettha mapeia o perfil comportamental, aderência à cultura e conhecimentos específicos de cada candidato e gera um match entre vagas e participante. Assim, o desafio deste projeto é elevar o nível de assertividade desse match, ajudando na redução das taxas de turnover.
 
 ## <a name="c2"></a>2. Objetivos e Justificativa
+
 ### 2.1 Objetivos
+
 ```
 Descreva resumidamente os objetivos gerais e específicos do seu parceiro de negócios.
 
@@ -42,41 +46,49 @@ Remova este bloco ao final
 ```
 
 ### 2.2 Proposta de solução
+
 ```
-Descreva resumidamente sua proposta de modelo preditivo e como esse modelo pretende 
+Descreva resumidamente sua proposta de modelo preditivo e como esse modelo pretende
 resolver o problema, atendendo os objetivos.
 
 Remova este bloco ao final
 ```
 
 ### 2.3 Justificativa
+
 ```
-Faça uma breve defesa de sua proposta de solução, escreva sobre seus potenciais, 
+Faça uma breve defesa de sua proposta de solução, escreva sobre seus potenciais,
 seus benefícios e como ela se diferencia.
 
 Remova este bloco ao final
 ```
 
 ## <a name="c3"></a>3. Metodologia
+
 ```
-Descreva as etapas da metodologia CRISP-DM que foram utilizadas para o 
+Descreva as etapas da metodologia CRISP-DM que foram utilizadas para o
 desenvolvimento, citando o referencial teórico. Você deve apenas enunciar
-os métodos, sem dizer ainda como eles foram aplicados, nem quais 
+os métodos, sem dizer ainda como eles foram aplicados, nem quais
 resultados foram obtidos.
 
 Remova este bloco ao final
 ```
 
 ## <a name="c4"></a>4. Desenvolvimento e Resultados
+
 ### 4.1. Compreensão do Problema
-#### 4.1.1. Contexto da indústria 
+
+#### 4.1.1. Contexto da indústria
+
 ```
-Descreva os principais players, modelos de negócio e tendências acerca 
+Descreva os principais players, modelos de negócio e tendências acerca
 dos modelos preditivos.
 
 Remova este bloco ao final
 ```
-#### 4.1.2. Análise SWOT 
+
+#### 4.1.2. Análise SWOT
+
 ```
 Posicione aqui sua análise SWOT.
 
@@ -84,20 +96,22 @@ Remova este bloco ao final
 ```
 
 #### 4.1.3. Planejamento Geral da Solução
+
 ```
-a) quais os dados disponíveis (fonte e conteúdo - exemplo: dados da 
+a) quais os dados disponíveis (fonte e conteúdo - exemplo: dados da
    área de Compras da empresa descrevendo seus fornecedores).
 b) qual a solução proposta (pode ser um resumo do texto da Seção 2.2).
 c) qual o tipo de tarefa (regressão ou classificação).
 d) como a solução proposta deverá ser utilizada.
 e) quais os benefícios trazidos pela solução proposta.
-f) qual será o critério de sucesso e qual métrica será utilizada 
+f) qual será o critério de sucesso e qual métrica será utilizada
    para avaliá-lo.
 
 Remova este bloco ao final
 ```
 
 #### 4.1.4. Value Proposition Canvas
+
 ```
 Posicione aqui seu canvas.
 
@@ -105,6 +119,7 @@ Remova este bloco ao final
 ```
 
 #### 4.1.5. Matriz de Riscos
+
 ```
 Posicione aqui sua matriz.
 
@@ -112,14 +127,23 @@ Remova este bloco ao final
 ```
 
 #### 4.1.6. Personas
-```
-Posicione aqui suas Personas (indique se são personas que utilizam o 
-modelo e/ou se são afetadas pelo modelo).
 
-Remova este bloco ao final
-```
+&nbsp; &nbsp; &nbsp; O processo de definição das personas iniciou-se com a definição dos stakeholders. Para isso, pensou-se em quem seria afetado direta e indiretamente pelo desenvolvimento deste projeto. Assim, foi possível chegar na seguinte lista:
+
+- Bettha: A própria empresa
+- Candidatos: Jovens que encontram a Bettha enquanto procuram por experiência profissional;
+- Empregadores: Empresas que contratam a Bettha para anunciar vagas;
+- Inteli: A faculdade, que está interessada no desenvolvimento das soluções;
+- Ebettha: Este grupo de desenvolvedores, que irá construir a solução.
+
+&nbsp; &nbsp; &nbsp; Apesar de todas as partes mencionadas anteriormente serem impactadas com as atividades deste projeto, é necessário definir quem representará nossas personas. Dessa forma, conseguiremos mapear e entender as dores dos nossos usuários, levando à construção de uma solução que impacte, de fato, os utilizadores da plataforma da Bettha. Para isso, foi pensada numa matriz de poder x interesse, como pode-se ver abaixo.
+
+<center>Figura xx - Matriz de poder x interesse</center>
+<img src="./images/matriz_poder_interesse.png" alt="Matriz de poder vs interesse">
+<center>Fonte: Elaborado pelos autores</center>
 
 #### 4.1.7. Jornadas do Usuário
+
 ```
 Posicione aqui seus mapas de jornadas do usuário que utiliza o modelo.
 
@@ -127,6 +151,7 @@ Remova este bloco ao final
 ```
 
 #### 4.1.8 Política de Privacidade
+
 ```
 Posicione aqui sua política de privacidade em acordo com a LGPD
 
@@ -136,107 +161,115 @@ Remova este bloco ao final
 ### 4.2. Compreensão dos Dados
 
 #### 4.2.1. Exploração de dados
+
 ```
-Apresentar a estatística descritiva básica de cada coluna, identificar 
-se a coluna é numérica ou categórica e pelo menos 3 gráficos para 
+Apresentar a estatística descritiva básica de cada coluna, identificar
+se a coluna é numérica ou categórica e pelo menos 3 gráficos para
 visualizar a relação entre colunas escolhidas pelo grupo.
 
 Remova este bloco ao final
 ```
 
 #### 4.2.2. Pré-processamento dos dados
+
 ```
-Apresentar quais foram as ações realizadas de limpeza (tratamento de 
-missing values e remoção de outliers) e transformação (normalização 
+Apresentar quais foram as ações realizadas de limpeza (tratamento de
+missing values e remoção de outliers) e transformação (normalização
 e codificação) das colunas.
-Se houverem outliers, cite quais são e qual(is) correção(ões) será(ão) 
+Se houverem outliers, cite quais são e qual(is) correção(ões) será(ão)
 aplicada(s).
 
 Remova este bloco ao final
 ```
 
 #### 4.2.3. Hipóteses
+
 ```
 Descreva três hipóteses sobre a relação dos dados e o problema.
-Justifique cada uma delas. 
+Justifique cada uma delas.
 
 Remova este bloco ao final
 ```
 
 ### 4.3. Preparação dos Dados e Modelagem
+
 ```
-Caso seu projeto seja Modelo Supervisionado, apresentar: 
-a) Modelagem para o problema (proposta de features com a explicação 
+Caso seu projeto seja Modelo Supervisionado, apresentar:
+a) Modelagem para o problema (proposta de features com a explicação
    completa da linha de raciocínio).
 b) Métricas relacionadas ao modelo (conjunto de testes, pelo menos 3).
-c) Apresentar o primeiro modelo candidato, e uma discussão sobre os 
-   resultados deste modelo (discussão sobre as métricas para esse 
+c) Apresentar o primeiro modelo candidato, e uma discussão sobre os
+   resultados deste modelo (discussão sobre as métricas para esse
    modelo candidato).
 
 Caso seu projeto seja Modelo Não-Supervisionado, apresentar:
-a) Modelagem para o problema (proposta de features com a explicação 
+a) Modelagem para o problema (proposta de features com a explicação
    completa da linha de raciocínio).
 b) Primeiro modelo candidato para o problema.
 c) Justificativa para a definição do K do modelo.
-d) Escolha de um tipo de sistema de recomendação e a justificativa 
+d) Escolha de um tipo de sistema de recomendação e a justificativa
    para essa escolha.
 
 Remova este bloco ao final
 ```
 
 ### 4.4. Comparação de Modelos
+
 ```
-- Descrever e justificar a escolha da métrica de avaliação dos 
-  modelos com base no que é mais importante para o problema ao 
+- Descrever e justificar a escolha da métrica de avaliação dos
+  modelos com base no que é mais importante para o problema ao
   se medir a qualidade desses modelos;
-- Descrever ao menos três modelos candidatos, seus respectivos 
-  algoritmos, seus tunings de hiperparâmetros e suas métricas 
+- Descrever ao menos três modelos candidatos, seus respectivos
+  algoritmos, seus tunings de hiperparâmetros e suas métricas
   alcançadas;
 
 Remova este bloco ao final
 ```
 
 ### 4.5. Avaliação
+
 ```
-- Descreva a solução final de modelo preditivo e justifique a escolha. 
-  Alinhe sua justificativa com a Seção 4.1, resgatando o entendimento 
-  do negócio e explicando de que formas seu modelo atende os requisitos 
-  e definições. 
-- Descreva também um plano de contingência para os casos em que o 
+- Descreva a solução final de modelo preditivo e justifique a escolha.
+  Alinhe sua justificativa com a Seção 4.1, resgatando o entendimento
+  do negócio e explicando de que formas seu modelo atende os requisitos
+  e definições.
+- Descreva também um plano de contingência para os casos em que o
   modelo falhar em suas predições.
-- Além disso, discuta sobre a explicabilidade do modelo e realize a 
+- Além disso, discuta sobre a explicabilidade do modelo e realize a
   verificação de aceitação ou refutação das hipóteses.
-- Se aplicável, utilize equações, tabelas e gráficos de visualização 
-  de dados para melhor ilustrar seus argumentos. 
+- Se aplicável, utilize equações, tabelas e gráficos de visualização
+  de dados para melhor ilustrar seus argumentos.
 
 Remova este bloco ao final
 ```
 
 ## <a name="c5"></a>5. Conclusões e Recomendações
+
 ```
-Escreva, de forma resumida, sobre os principais resultados do seu 
-projeto e faça recomendações formais ao seu parceiro de negócios em 
-relação ao uso desse modelo. Você pode aproveitar este espaço para 
-comentar sobre possíveis materiais extras, como um manual de usuário 
-mais detalhado na seção “Anexos”. 
-Não se esqueça também das pessoas que serão potencialmente afetadas 
-pelas decisões do modelo preditivo e elabore recomendações que ajudem 
-seu parceiro a tratá-las de maneira estratégica e ética. 
+Escreva, de forma resumida, sobre os principais resultados do seu
+projeto e faça recomendações formais ao seu parceiro de negócios em
+relação ao uso desse modelo. Você pode aproveitar este espaço para
+comentar sobre possíveis materiais extras, como um manual de usuário
+mais detalhado na seção “Anexos”.
+Não se esqueça também das pessoas que serão potencialmente afetadas
+pelas decisões do modelo preditivo e elabore recomendações que ajudem
+seu parceiro a tratá-las de maneira estratégica e ética.
 
 Remova este bloco ao final
 ```
 
 ## <a name="c6"></a>6. Referências
+
 PATI, Camila. 10 programas de trainee com mais de 400 candidatos por vaga. **Exame**. Disponível em: <https://exame.com/carreira/10-programas-de-trainee-com-mais-de-400-candidatos-por-vaga/>. Acesso em 04 de agosto de 2023.
 Veja quais são os cursos mais concorridos para a USP em 2023; Medicina lidera. **Exame**. Disponível em: <https://exame.com/brasil/veja-quais-sao-os-cursos-mais-concorridos-para-a-usp-em-2023-medicina-lidera/>. Acesso em 04 de agosto de 2023.
 Saiba mais sobre a empresa Bettha. **Bettha**. Disponível em: <https://www.bettha.com/quem-somos>. Acesso em 03 de agosto de 2023.
 Invertemos a lógica do processo seletivo. **Bettha**. Disponível em: <https://www.bettha.com/empresa>. Acesso em 03 de agosto de 2023.
 
-
 ## <a name="attachments"></a>Anexos
+
 ```
-Utilize esta seção para anexar materiais como manuais de usuário, 
-documentos complementares que ficaram grandes e não couberam no 
+Utilize esta seção para anexar materiais como manuais de usuário,
+documentos complementares que ficaram grandes e não couberam no
 corpo do texto etc.
 
 Remova este bloco ao final
