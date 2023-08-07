@@ -28,13 +28,9 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 
 
 ## <a name="c1"></a>1. Introdução
-```
-Apresente de forma sucinta o parceiro de negócio, seu porte, local, área de atuação e 
-posicionamento no mercado. Maiores detalhes deverão ser descritos na seção 4. Descreva 
-resumidamente o problema a ser resolvido (sem ainda mencionar a solução). 
 
-Remova este bloco ao final
-```
+   O início de carreira é um momento muito tempestuoso na vida dos jovens. Isso porque programas de trainee podem chegar a ser quase 30 vezes mais concorridos do que entrar no curso mais disputado da Universidade de São Paulo, que apresenta uma proporção de 118 candidatos para cada vaga. É nesse contexto que entra em jogo a Bettha, uma empresa nascida em 2017 como braço direito do grupo Cia de Talentos e que visa preparar e desenvolver pessoas antes mesmo do processo seletivo para as empresas. 
+	Outra questão que merece destaque é o fato do Brasil ser o país com o maior índice de turnover dentro das organizações, tendo o dobro da média mundial. Dessa forma, a empresa acaba perdendo o dinheiro investido no recrutamento. Para driblar essa realidade, a Bettha mapeia o perfil comportamental, aderência à cultura e conhecimentos específicos de cada candidato e gera um match entre vagas e participante. Assim, o desafio deste projeto é elevar o nível de assertividade desse match, ajudando na redução das taxas de turnover.
 
 ## <a name="c2"></a>2. Objetivos e Justificativa
 ### 2.1 Objetivos
@@ -230,13 +226,11 @@ Remova este bloco ao final
 ```
 
 ## <a name="c6"></a>6. Referências
-```
-Incluir as principais referências de seu projeto, para que seu 
-parceiro possa consultar caso ele se interessar em aprofundar.
-Não se esqueça de formatar as referências conforme a ABNT.
+PATI, Camila. 10 programas de trainee com mais de 400 candidatos por vaga. **Exame**. Disponível em: <https://exame.com/carreira/10-programas-de-trainee-com-mais-de-400-candidatos-por-vaga/>. Acesso em 04 de agosto de 2023.
+Veja quais são os cursos mais concorridos para a USP em 2023; Medicina lidera. **Exame**. Disponível em: <https://exame.com/brasil/veja-quais-sao-os-cursos-mais-concorridos-para-a-usp-em-2023-medicina-lidera/>. Acesso em 04 de agosto de 2023.
+Saiba mais sobre a empresa Bettha. **Bettha**. Disponível em: <https://www.bettha.com/quem-somos>. Acesso em 03 de agosto de 2023.
+Invertemos a lógica do processo seletivo. **Bettha**. Disponível em: <https://www.bettha.com/empresa>. Acesso em 03 de agosto de 2023.
 
-Remova este bloco ao final
-```
 
 ## <a name="attachments"></a>Anexos
 ```
