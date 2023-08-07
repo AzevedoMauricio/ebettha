@@ -120,11 +120,60 @@ Remova este bloco ao final
 
 #### 4.1.5. Matriz de Riscos
 
-```
-Posicione aqui sua matriz.
+&nbsp; &nbsp; &nbsp; A matriz de risco é uma ferramenta utilizada para identificar, avaliar e priorizar os riscos associados a um projeto, processo, ou qualquer atividade que envolva incertezas. Ela permite visualizar de forma organizada os possíveis eventos adversos que podem impactar o sucesso do projeto e ajuda a tomar decisões informadas para mitigar ou lidar com esses riscos.
 
-Remova este bloco ao final
-```
+&nbsp; &nbsp; &nbsp; Com base nos impactos e nas probabilidades de ocorrência, os riscos foram classificados em quatro categorias: baixa, média, alta e muito alta. A partir disso, foi possível montar a matriz de riscos, que pode ser listada abaixo:
+
+Riscos:
+
+-Desentendimentos entre o grupo:
+  Engloba todas as possibilidades de desentendimento entre membros do grupo. O risco é considerado moderado devido às diferentes maneiras de solucioná-los. A probabilidade é alta porque desentendimentos ocorrem a todo momento pelos mais diversos motivos.
+
+-Atraso de entrega:
+  O grupo não conseguiu finalizar os artefatos dentro do prazo estipulado. O risco é 
+  baixo visto que os membros estão comprometidos com o projeto, entretanto o 
+  impacto é extremamente alto visto que as entregas valem nota e refletem o.
+  andamento total do projeto
+
+-Falta de clareza das informações do parceiro:
+  Falha do parceiro ao comunicar as informações necessárias para a realização do projeto. Consideramos o risco baixo tendo em vista o contato inicial com o parceiro, entretanto o impacto é extremamente alto haja vista que um projeto baseado nas informações erradas pode sair completamente do escopo.
+
+-Fuga do escopo do projeto:
+  O projeto não seguiu o que foi proposto pelos parceiros. Consideramos o risco extremamente baixo, entretanto o impacto seria extremamente negativo considerando que o projeto não seria útil ao parceiro.
+
+-Falta dos integrantes:
+  Falta por parte dos integrantes do grupo tem uma chance moderada de acontecer haja vista que imprevistos acontecem. O impacto entretanto tende a não ser tão grande, principalmente se for devidamente comunicada.
+
+-Incompatibilidade autoestudos/projeto:
+  É comum que o conteúdo dos autos de estudos não seja suficiente ou pertinente com os conhecimentos necessários para o desenvolvimento do projeto. O impacto disso é alto visto que muitas vezes o conhecimento é buscado em outras fontes, nem sempre confiáveis. 
+
+-Irresponsabilidade com as tarefas atribuídas:
+  O risco é moderado e a probabilidade de 30% por que pode acontecer dos 
+  integrantes do grupo se comprometerem com as atividades e não realizá-las, isso 
+  pode acontecer mas a probabilidade é baixa dado que nós como um grupo vamos 
+  nós monitorar e nos ajudar sempre.
+
+-VIA falhar:
+  O risco é alto e a probabilidade de 50% por que o Via vem falhando constantemente quando precisamos dele então optamos por instalar o software do via nos computadores para não ocorrer de falhar quando precisarmos apresentar.
+
+-Falhas de hardware:
+  Falhas no hardware de algum membro não costumam ocorrer com muita frequência e seu impacto é baixo também tendo em vista que existem diversas formas de resolver esse tipo de situação.
+
+-Faltas em dia de apresentação:
+  Faltas não avisadas em dia de apresentação são raras visto que os membros do grupo sabem a importância que as apresentações têm. Estas, entretanto, podem ter um impacto moderado uma vez que a presença de todos os membros é extremamente importante para a moral do grupo.
+
+-Falha no alinhamento de expectativas com o parceiro:
+  Isso ocorre quando há uma falha de comunicação e os parceiros esperam do projeto mais do que o grupo pretende entregar. O risco não é muito alto, entretanto o impacto e haja vista que essa situação pode gerar insatisfação por parte do parceiro.
+
+-Falha de comunicação entre os membros:
+  Falhas de comunicação entre os membros do grupo tem uma chance moderada de ocorrer, assim como um impacto moderado tendo em vista que pode ocasionar desentendimentos, tarefas feitas duas vezes e tarefas não feitas.
+
+-Falta de sintonia scrum master/ equipe:
+  Ocorre quando o scrum master não assume uma postura favorável ao bom desentendimento do grupo. A chance de ocorrer é baixa e o impacto também tendo em vista que o scrum master apenas atua por uma semana e que algumas situações podem ser resolvidas através de comunicação eficiente.
+
+
+<img src="./images/Matriz_de_risco.png" alt="Matriz de Riscos" >
+<center>Fonte: Elaborado pelos autores</center>
 
 #### 4.1.6. Personas
 
