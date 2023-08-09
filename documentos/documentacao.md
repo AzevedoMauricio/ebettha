@@ -112,11 +112,49 @@ Remova este bloco ao final
 
 #### 4.1.4. Value Proposition Canvas
 
-```
-Posicione aqui seu canvas.
+&nbsp; &nbsp; &nbsp; O Canvas de Proposta de Valor desempenha um papel fundamental ao oferecer uma representação visual concisa dos principais elementos que compõem a proposta de valor de um produto ou serviço. Sua importância reside na capacidade de proporcionar clareza na definição das necessidades dos clientes, diferenciação competitiva, alinhamento interno, iteração estratégica e comunicação eficaz com stakeholders. Ao delinear segmentos de clientes, soluções oferecidas, vantagens competitivas e estrutura de custos, o Canvas orienta a tomada de decisões informadas e impulsiona a inovação, contribuindo assim para o desenvolvimento bem-sucedido e a evolução contínua do negócio.
+Baseando-se nas funcionalidades oferecidas pelo produto e na análise da situação do cliente chegamos ao seguinte resultado:
 
-Remova este bloco ao final
-```
+<img src="./images/VPC.png" alt="Value Proposition Canvas" >
+<center>Fonte: Elaborado pelos autores</center>
+
+Lado do produto
+
+Criadores de ganho:
+-Feedback de compatibilidade usuário x empresa:
+  A solução fornecerá ao usuário um indicativo quantitativo referente à sua compatibilidade com as empresas indicadas.
+-Melhores recomendações de trilhas a serem seguidas pelos usuários:
+  Por meio do modelo preditivo, os usuários receberão recomendações mais precisas acerca de quais trilhas de aprendizado devem seguir.
+
+Produtos & serviços:
+-Modelo preditivo usuário x vagas x trilhas:
+  Um modelo de análise de dados que providenciará matches precisos com empresas e trilhas baseando-se em dados de perfil dos usuários e das empresas.
+
+Aliviadores de dores:
+-Melhor aplicação dos dados coletados dos usuários:
+  O modelo realizará uma utilização integral e inteligente dos dados coletados e fornecidos pela empresa parceira.
+-Recomendações mais precisas:
+  As recomendações retornadas pelo modelo serão precisas.
+
+Lado do cliente:
+
+Ganhos:
+-Maior confiança entre a empresa e seus clientes:
+  Com os resultados precisos do modelo a confiança dos clientes na Bettha irá aumentar.
+-Maior popularidade da plataforma:
+  Com recomendações mais precisas a Bettha se tornará mais popular no mercado em que atua.
+
+Trabalhos a serem realizados:
+-Entregar recomendações de trilhas e de gestores/empresas aos usuários:
+  A proposta da Bettha é ligar usuários com trilhas de aprendizado e com propostas de emprego e estágio.
+
+Dores:
+-Baixa personalização no sistema de match:
+  O sistema atual de match é genérico e não faz bom uso de todos os dados coletados dos usuários.
+-Interface de usuário:
+  A plataforma possui vários bugs e processos desgastantes na realização de algumas tarefas.
+
+
 
 #### 4.1.5. Matriz de Riscos
 
