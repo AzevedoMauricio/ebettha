@@ -175,6 +175,12 @@ Riscos:
 <img src="./images/Matriz_de_risco.png" alt="Matriz de Riscos" >
 <center>Fonte: Elaborado pelos autores</center>
 
+
+&nbsp; &nbsp; &nbsp; A partir da matriz de riscos, foi possível montar a tabela de gestão de riscos, que pode ser listada abaixo:
+
+<img src="./images/Tabela_gestao_de_risco" alt="Gestão de Riscos" >
+<center>Fonte: Elaborado pelos autores</center>
+
 #### 4.1.6. Personas
 
 &nbsp; &nbsp; &nbsp; O processo de definição das personas iniciou-se com a definição dos stakeholders. Para isso, pensou-se em quem seria afetado direta e indiretamente pelo desenvolvimento deste projeto. Assim, foi possível chegar na seguinte lista:
