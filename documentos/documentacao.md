@@ -114,6 +114,9 @@ Remova este bloco ao final
 
 &nbsp; &nbsp; &nbsp; O Canvas de Proposta de Valor desempenha um papel fundamental ao oferecer uma representação visual concisa dos principais elementos que compõem a proposta de valor de um produto ou serviço. Sua importância reside na capacidade de proporcionar clareza na definição das necessidades dos clientes, diferenciação competitiva, alinhamento interno, iteração estratégica e comunicação eficaz com stakeholders. Ao delinear segmentos de clientes, soluções oferecidas, vantagens competitivas e estrutura de custos, o Canvas orienta a tomada de decisões informadas e impulsiona a inovação, contribuindo assim para o desenvolvimento bem-sucedido e a evolução contínua do negócio.
 Baseando-se nas funcionalidades oferecidas pelo produto e na análise da situação do cliente chegamos ao seguinte resultado:
+&nbsp;
+&nbsp;
+&nbsp;
 
 <img src="./images/VPC.png" alt="Value Proposition Canvas" >
 <center>Fonte: Elaborado pelos autores</center>
