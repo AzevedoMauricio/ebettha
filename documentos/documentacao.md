@@ -117,14 +117,15 @@ Baseando-se nas funcionalidades oferecidas pelo produto e na análise da situaç
 
 <img src="./images/VPC.png" alt="Value Proposition Canvas" >
 <center>Fonte: Elaborado pelos autores</center>
+&nbsp;
 
-Lado do produto
+Lado do produto:
 
 Criadores de ganho:
 
 -Feedback de compatibilidade usuário x empresa:
   A solução fornecerá ao usuário um indicativo quantitativo referente à sua compatibilidade com as empresas indicadas.
-  
+
 -Melhores recomendações de trilhas a serem seguidas pelos usuários:
   Por meio do modelo preditivo, os usuários receberão recomendações mais precisas acerca de quais trilhas de aprendizado devem seguir.
 
