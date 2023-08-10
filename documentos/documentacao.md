@@ -1,15 +1,8 @@
 # Documentação Modelo Preditivo - Inteli
 
-```
-INSTRUÇÕES GERAIS (remova este trecho ao final)
+## Ebettha
 
-Você deve editar este documento utilizando notação markdown - siga as convenções neste link
-https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-```
-
-## Nome da Solução
-
-### Nome do grupo
+### Ebettha
 
 #### (preencha aqui os nomes dos integrantes, em ordem alfabética, separados por vírgula)
 
@@ -31,19 +24,39 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 
 ## <a name="c1"></a>1. Introdução
 
-&nbsp; &nbsp; &nbsp; O início de carreira é um momento muito tempestuoso na vida dos jovens. Isso porque programas de trainee podem chegar a ser quase 30 vezes mais concorridos do que entrar no curso mais disputado da Universidade de São Paulo, que apresenta uma proporção de 118 candidatos para cada vaga. É nesse contexto que entra em jogo a Bettha, uma empresa nascida em 2017 como braço direito do grupo Cia de Talentos e que visa preparar e desenvolver pessoas antes mesmo do processo seletivo para as empresas.
+<div style="text-align: justify">
 
-&nbsp; &nbsp; &nbsp; Outra questão que merece destaque é o fato do Brasil ser o país com o maior índice de turnover dentro das organizações, tendo o dobro da média mundial. Dessa forma, a empresa acaba perdendo o dinheiro investido no recrutamento. Para driblar essa realidade, a Bettha mapeia o perfil comportamental, aderência à cultura e conhecimentos específicos de cada candidato e gera um match entre vagas e participante. Assim, o desafio deste projeto é elevar o nível de assertividade desse match, ajudando na redução das taxas de turnover.
+&emsp; O início de carreira é um momento muito tempestuoso na vida dos jovens. Programas de trainee, por exemplo, podem chegar a ser quase 30 vezes mais concorridos do que entrar no curso mais disputado da Universidade de São Paulo, que apresenta uma proporção de 118 candidatos para cada vaga. É nesse contexto que entra em jogo a Bettha, uma empresa nascida em 2017 como braço direito do grupo Cia de Talentos e que visa preparar e desenvolver pessoas antes mesmo do processo seletivo para ingressar nas empresas.
+
+&emsp; Outra questão que merece destaque é o fato do Brasil ser o país com o maior índice de turnover dentro das organizações, tendo o dobro da média mundial. Dessa forma, a empresa acaba perdendo o dinheiro investido no recrutamento. Para driblar essa realidade, a Bettha mapeia o perfil comportamental e conhecimentos específicos de cada candidato e gera um match (combinação entre duas ou mais partes com características compatíveis) entre vagas e participantes.
+
+&emsp; Tal ação é positiva tanto para as empresas que estão ofertando vagas, quanto para os candidatos. Isso porque, primeiro, quem está concorrendo a determinado cargo, visualiza somente recomendações para ocupar funções que combinam com suas características, o que proporciona não só um aumento nas chances de ser aceito, como também eleva a probabilidade de permanecer no cargo em caso de contratação. Com isso, a organização tende a receber pessoas mais adeptas às características procuradas ao mesmo passo que reduz a temida taxa de turnover.
+
+&emsp; Apesar de saber da relevância de oferecer essa funcionalidade em sua plataforma, a Bettha padece de uma baixa acurácia nos resultados desses matches. Nesse sentido, o principal desafio deste projeto é construir um modelo preditivo que seja capaz de aprimorar o nível assertividade da aplicação já existente, proporcionando uma melhor experiência tanto para quem está aplicando, quanto para quem oferece vagas na Bettha.
+
+</div>
 
 ## <a name="c2"></a>2. Objetivos e Justificativa
 
 ### 2.1 Objetivos
 
-```
-Descreva resumidamente os objetivos gerais e específicos do seu parceiro de negócios.
+<div style="text-align: justify">
 
-Remova este bloco ao final
-```
+&emsp; De maneira geral, este projeto visa garantir aos utilizadores da plataforma Bettha, uma melhor experiência durante o processo de recrutamento, assistindo desde os candidatos, até às instituições que disponibilizam vagas.
+
+&emsp; É primordial entender que, acima de tudo, este projeto está sendo construído com fins didáticos. Dessa forma, a primeira meta diz respeito ao aprendizado dos integrantes deste trabalho, que será alcançado por cada membro com aulas presenciais, livros e videoaulas fornecidos pelo Inteli, bem como o desenvolvimento deste projeto. É possível considerar que ele foi atingido se, ao final das 10 semanas de duração do módulo, todos os membros consigam entender e reproduzir as etapas para a construção de um modelo preditivo.
+
+&emsp; Para além disso, espera-se que, até a semana 04, o grupo tenha compreendido os dados fornecidos pela Bettha e realize qualquer tratamento que seja necessário. O êxito dessa tarefa pode ser medido a partir da capacidade da equipe em formular as primeiras hipóteses acerca das relações entre candidato e gestores de cada vaga, mas também entre candidato e trilhas de conhecimento. Essa etapa é importante pois somente com estas especulações o trabalho é capaz de avançar para a elaboração do modelo inicial.
+
+&emsp; Em seguida, será necessário escolher uma das hipóteses previamente elaboradas para desenvolver, até a semana 06, o primeiro modelo que seja capaz de trazer respostas para o problema definido e confirme, ou refute, aquilo que foi anteriormente presumido. Essa etapa necessitará de validação junto à Bettha, também servirá como base para o próximo objetivo.
+
+&emsp; Depois, até a semana 08, têm-se a expectativa de estar com o projeto semifinalizado. Isso incluirá que, dado o mapeamento comportamental de um candidato e uma lista que contenha o mapeamento de várias vagas, o modelo seja capaz de retornar, por ordem decrescente, e informando em valor percentual, a compatibilidade do concorrente para cada uma das funções. Nesta fase, o modelo também deverá ser capaz de fornecer, para cada candidato, recomendações de trilhas de conhecimento. Por fim, é esperado que todos estes resultados sejam apresentados em uma interface web agradável para melhor visualização do cliente quanto às atividades desenvolvidas.
+
+&emsp; Após estas validações, o modelo desenvolvido será lapidado de tal forma que possa atender ao parecer dado pelo cliente na apresentação anterior. Estas melhorias devem ser feitas até a data limite do projeto – o final da semana 10. Isso ocorrerá para que, na apresentação final, o time consiga entregar à Bettha um modelo que atenda às demandas anteriormente expostas neste documento.
+
+&emsp; Cumprir todos estes objetivos é indispensável para atingir a última meta, que consiste na utilização do projeto aqui desenvolvido em um ambiente de produção na Bettha ou, quando menos, que ele sirva de alicerce para a implementação de um modelo de match mais eficaz do que o atualmente existente na sua plataforma.
+
+</div>
 
 ### 2.2 Proposta de solução
 
@@ -56,12 +69,11 @@ Remova este bloco ao final
 
 ### 2.3 Justificativa
 
-```
-Faça uma breve defesa de sua proposta de solução, escreva sobre seus potenciais,
-seus benefícios e como ela se diferencia.
+<div style="text-align: justify">
 
-Remova este bloco ao final
-```
+&emsp; O setor de recrutamento, no qual a Bettha atua, é um mercado extremamente concorrido. Assim sendo, é indispensável que ela apresente algum diferencial para que consiga convencer outras empresas a realizarem seus processos seletivos dentro da plataforma Bettha. Por isso, o desenvolvimento deste projeto entregará duas funcionalidades as quais permitirão uma vantagem competitiva da Bettha frente aos seus concorrentes.
+
+</div>
 
 ## <a name="c3"></a>3. Metodologia
 
@@ -112,126 +124,129 @@ Remova este bloco ao final
 
 #### 4.1.4. Value Proposition Canvas
 
-&nbsp; &nbsp; &nbsp; O Canvas de Proposta de Valor desempenha um papel fundamental ao oferecer uma representação visual concisa dos principais elementos que compõem a proposta de valor de um produto ou serviço. Sua importância reside na capacidade de proporcionar clareza na definição das necessidades dos clientes, diferenciação competitiva, alinhamento interno, iteração estratégica e comunicação eficaz com stakeholders. Ao delinear segmentos de clientes, soluções oferecidas, vantagens competitivas e estrutura de custos, o Canvas orienta a tomada de decisões informadas e impulsiona a inovação, contribuindo assim para o desenvolvimento bem-sucedido e a evolução contínua do negócio.
-Baseando-se nas funcionalidades oferecidas pelo produto e na análise da situação do cliente chegamos ao seguinte resultado:
+<div style="text-align: justify">
 
+&emsp; O Canvas de Proposta de Valor desempenha um papel fundamental ao oferecer uma representação visual concisa dos principais elementos que compõem a proposta de valor de um produto ou serviço. Sua importância reside na capacidade de proporcionar clareza na definição das necessidades dos clientes, diferenciação competitiva, alinhamento interno, iteração estratégica e comunicação eficaz com stakeholders. Ao delinear segmentos de clientes, soluções oferecidas, vantagens competitivas e estrutura de custos, o Canvas orienta a tomada de decisões informadas e impulsiona a inovação, contribuindo assim para o desenvolvimento bem-sucedido e a evolução contínua do negócio.
+
+&emsp; Assim, baseando-se na análise feita sobre a Bettha, bem como da solução a ser desenvolvida neste projeto, foi possível chegar no resultado exibido abaixo.
+
+<div style="text-align: center">Imagem 01 - Value Proposition Canvas Ebettha</div>
 <img src="./images/VPC.png" alt="Value Proposition Canvas" >
-<center>Fonte: Elaborado pelos autores</center>
+<div style="text-align: center">Fonte: Elaborado pelos autores</div>
 
+&emsp; Para melhor entendimento, é necessário aprofundar-se em cada um dos indicadores mencionados. Iniciando a análise
 Lado do produto:
 
 Criadores de ganho:
 
 -Feedback de compatibilidade usuário x empresa:
-  A solução fornecerá ao usuário um indicativo quantitativo referente à sua compatibilidade com as empresas indicadas.
+A solução fornecerá ao usuário um indicativo quantitativo referente à sua compatibilidade com as empresas indicadas.
 
 -Melhores recomendações de trilhas a serem seguidas pelos usuários:
-  Por meio do modelo preditivo, os usuários receberão recomendações mais precisas acerca de quais trilhas de aprendizado devem seguir.
+Por meio do modelo preditivo, os usuários receberão recomendações mais precisas acerca de quais trilhas de aprendizado devem seguir.
 
 Produtos & serviços:
 
 -Modelo preditivo usuário x vagas x trilhas:
-  Um modelo de análise de dados que providenciará matches precisos com empresas e trilhas baseando-se em dados de perfil dos usuários e das empresas.
+Um modelo de análise de dados que providenciará matches precisos com empresas e trilhas baseando-se em dados de perfil dos usuários e das empresas.
 
 Aliviadores de dores:
 
 -Melhor aplicação dos dados coletados dos usuários:
-  O modelo realizará uma utilização integral e inteligente dos dados coletados e fornecidos pela empresa parceira.
+O modelo realizará uma utilização integral e inteligente dos dados coletados e fornecidos pela empresa parceira.
 
 -Recomendações mais precisas:
-  As recomendações retornadas pelo modelo serão precisas.
+As recomendações retornadas pelo modelo serão precisas.
 
 Lado do cliente:
 
 Ganhos:
 
 -Maior confiança entre a empresa e seus clientes:
-  Com os resultados precisos do modelo a confiança dos clientes na Bettha irá aumentar.
+Com os resultados precisos do modelo a confiança dos clientes na Bettha irá aumentar.
 
 -Maior popularidade da plataforma:
-  Com recomendações mais precisas a Bettha se tornará mais popular no mercado em que atua.
+Com recomendações mais precisas a Bettha se tornará mais popular no mercado em que atua.
 
 Trabalhos a serem realizados:
 
 -Entregar recomendações de trilhas e de gestores/empresas aos usuários:
-  A proposta da Bettha é ligar usuários com trilhas de aprendizado e com propostas de emprego e estágio.
+A proposta da Bettha é ligar usuários com trilhas de aprendizado e com propostas de emprego e estágio.
 
 Dores:
 
 -Baixa personalização no sistema de match:
-  O sistema atual de match é genérico e não faz bom uso de todos os dados coletados dos usuários.
+O sistema atual de match é genérico e não faz bom uso de todos os dados coletados dos usuários.
 
 -Interface de usuário:
-  A plataforma possui vários bugs e processos desgastantes na realização de algumas tarefas.
+A plataforma possui vários bugs e processos desgastantes na realização de algumas tarefas.
 
-
+</div>
 
 #### 4.1.5. Matriz de Riscos
 
-&nbsp; &nbsp; &nbsp; A matriz de risco é uma ferramenta utilizada para identificar, avaliar e priorizar os riscos associados a um projeto, processo, ou qualquer atividade que envolva incertezas. Ela permite visualizar de forma organizada os possíveis eventos adversos que podem impactar o sucesso do projeto e ajuda a tomar decisões informadas para mitigar ou lidar com esses riscos.
+&emsp; A matriz de risco é uma ferramenta utilizada para identificar, avaliar e priorizar os riscos associados a um projeto, processo, ou qualquer atividade que envolva incertezas. Ela permite visualizar de forma organizada os possíveis eventos adversos que podem impactar o sucesso do projeto e ajuda a tomar decisões informadas para mitigar ou lidar com esses riscos.
 
-&nbsp; &nbsp; &nbsp; Com base nos impactos e nas probabilidades de ocorrência, os riscos foram classificados em quatro categorias: baixa, média, alta e muito alta. A partir disso, foi possível montar a matriz de riscos, que pode ser listada abaixo:
+&emsp; Com base nos impactos e nas probabilidades de ocorrência, os riscos foram classificados em quatro categorias: baixa, média, alta e muito alta. A partir disso, foi possível montar a matriz de riscos, que pode ser listada abaixo:
 
 Riscos:
 
 -Desentendimentos entre o grupo:
-  Engloba todas as possibilidades de desentendimento entre membros do grupo. O risco é considerado moderado devido às diferentes maneiras de solucioná-los. A probabilidade é alta porque desentendimentos ocorrem a todo momento pelos mais diversos motivos.
+Engloba todas as possibilidades de desentendimento entre membros do grupo. O risco é considerado moderado devido às diferentes maneiras de solucioná-los. A probabilidade é alta porque desentendimentos ocorrem a todo momento pelos mais diversos motivos.
 
 -Atraso de entrega:
-  O grupo não conseguiu finalizar os artefatos dentro do prazo estipulado. O risco é 
-  baixo visto que os membros estão comprometidos com o projeto, entretanto o 
-  impacto é extremamente alto visto que as entregas valem nota e refletem o.
-  andamento total do projeto
+O grupo não conseguiu finalizar os artefatos dentro do prazo estipulado. O risco é
+baixo visto que os membros estão comprometidos com o projeto, entretanto o
+impacto é extremamente alto visto que as entregas valem nota e refletem o.
+andamento total do projeto
 
 -Falta de clareza das informações do parceiro:
-  Falha do parceiro ao comunicar as informações necessárias para a realização do projeto. Consideramos o risco baixo tendo em vista o contato inicial com o parceiro, entretanto o impacto é extremamente alto haja vista que um projeto baseado nas informações erradas pode sair completamente do escopo.
+Falha do parceiro ao comunicar as informações necessárias para a realização do projeto. Consideramos o risco baixo tendo em vista o contato inicial com o parceiro, entretanto o impacto é extremamente alto haja vista que um projeto baseado nas informações erradas pode sair completamente do escopo.
 
 -Fuga do escopo do projeto:
-  O projeto não seguiu o que foi proposto pelos parceiros. Consideramos o risco extremamente baixo, entretanto o impacto seria extremamente negativo considerando que o projeto não seria útil ao parceiro.
+O projeto não seguiu o que foi proposto pelos parceiros. Consideramos o risco extremamente baixo, entretanto o impacto seria extremamente negativo considerando que o projeto não seria útil ao parceiro.
 
 -Falta dos integrantes:
-  Falta por parte dos integrantes do grupo tem uma chance moderada de acontecer haja vista que imprevistos acontecem. O impacto entretanto tende a não ser tão grande, principalmente se for devidamente comunicada.
+Falta por parte dos integrantes do grupo tem uma chance moderada de acontecer haja vista que imprevistos acontecem. O impacto entretanto tende a não ser tão grande, principalmente se for devidamente comunicada.
 
 -Incompatibilidade autoestudos/projeto:
-  É comum que o conteúdo dos autos de estudos não seja suficiente ou pertinente com os conhecimentos necessários para o desenvolvimento do projeto. O impacto disso é alto visto que muitas vezes o conhecimento é buscado em outras fontes, nem sempre confiáveis. 
+É comum que o conteúdo dos autos de estudos não seja suficiente ou pertinente com os conhecimentos necessários para o desenvolvimento do projeto. O impacto disso é alto visto que muitas vezes o conhecimento é buscado em outras fontes, nem sempre confiáveis.
 
 -Irresponsabilidade com as tarefas atribuídas:
-  O risco é moderado e a probabilidade de 30% por que pode acontecer dos 
-  integrantes do grupo se comprometerem com as atividades e não realizá-las, isso 
-  pode acontecer mas a probabilidade é baixa dado que nós como um grupo vamos 
-  nós monitorar e nos ajudar sempre.
+O risco é moderado e a probabilidade de 30% por que pode acontecer dos
+integrantes do grupo se comprometerem com as atividades e não realizá-las, isso
+pode acontecer mas a probabilidade é baixa dado que nós como um grupo vamos
+nós monitorar e nos ajudar sempre.
 
 -VIA falhar:
-  O risco é alto e a probabilidade de 50% por que o Via vem falhando constantemente quando precisamos dele então optamos por instalar o software do via nos computadores para não ocorrer de falhar quando precisarmos apresentar.
+O risco é alto e a probabilidade de 50% por que o Via vem falhando constantemente quando precisamos dele então optamos por instalar o software do via nos computadores para não ocorrer de falhar quando precisarmos apresentar.
 
 -Falhas de hardware:
-  Falhas no hardware de algum membro não costumam ocorrer com muita frequência e seu impacto é baixo também tendo em vista que existem diversas formas de resolver esse tipo de situação.
+Falhas no hardware de algum membro não costumam ocorrer com muita frequência e seu impacto é baixo também tendo em vista que existem diversas formas de resolver esse tipo de situação.
 
 -Faltas em dia de apresentação:
-  Faltas não avisadas em dia de apresentação são raras visto que os membros do grupo sabem a importância que as apresentações têm. Estas, entretanto, podem ter um impacto moderado uma vez que a presença de todos os membros é extremamente importante para a moral do grupo.
+Faltas não avisadas em dia de apresentação são raras visto que os membros do grupo sabem a importância que as apresentações têm. Estas, entretanto, podem ter um impacto moderado uma vez que a presença de todos os membros é extremamente importante para a moral do grupo.
 
 -Falha no alinhamento de expectativas com o parceiro:
-  Isso ocorre quando há uma falha de comunicação e os parceiros esperam do projeto mais do que o grupo pretende entregar. O risco não é muito alto, entretanto o impacto e haja vista que essa situação pode gerar insatisfação por parte do parceiro.
+Isso ocorre quando há uma falha de comunicação e os parceiros esperam do projeto mais do que o grupo pretende entregar. O risco não é muito alto, entretanto o impacto e haja vista que essa situação pode gerar insatisfação por parte do parceiro.
 
 -Falha de comunicação entre os membros:
-  Falhas de comunicação entre os membros do grupo tem uma chance moderada de ocorrer, assim como um impacto moderado tendo em vista que pode ocasionar desentendimentos, tarefas feitas duas vezes e tarefas não feitas.
+Falhas de comunicação entre os membros do grupo tem uma chance moderada de ocorrer, assim como um impacto moderado tendo em vista que pode ocasionar desentendimentos, tarefas feitas duas vezes e tarefas não feitas.
 
 -Falta de sintonia scrum master/ equipe:
-  Ocorre quando o scrum master não assume uma postura favorável ao bom desentendimento do grupo. A chance de ocorrer é baixa e o impacto também tendo em vista que o scrum master apenas atua por uma semana e que algumas situações podem ser resolvidas através de comunicação eficiente.
-
+Ocorre quando o scrum master não assume uma postura favorável ao bom desentendimento do grupo. A chance de ocorrer é baixa e o impacto também tendo em vista que o scrum master apenas atua por uma semana e que algumas situações podem ser resolvidas através de comunicação eficiente.
 
 <img src="./images/Matriz_de_risco.png" alt="Matriz de Riscos" >
 <center>Fonte: Elaborado pelos autores</center>
 
-
-&nbsp; &nbsp; &nbsp; A partir da matriz de riscos, foi possível montar a tabela de gestão de riscos, que pode ser listada abaixo:
+&emsp; A partir da matriz de riscos, foi possível montar a tabela de gestão de riscos, que pode ser listada abaixo:
 
 <img src="./images/Tabela_gestao_de_risco.png" alt="Gestão de Riscos" >
 <center>Fonte: Elaborado pelos autores</center>
 
 #### 4.1.6. Personas
 
-&nbsp; &nbsp; &nbsp; O processo de definição das personas iniciou-se com a definição dos stakeholders. Para isso, pensou-se em quem seria afetado direta e indiretamente pelo desenvolvimento deste projeto. Assim, foi possível chegar na seguinte lista:
+&emsp; O processo de definição das personas iniciou-se com a definição dos stakeholders. Para isso, pensou-se em quem seria afetado direta e indiretamente pelo desenvolvimento deste projeto. Assim, foi possível chegar na seguinte lista:
 
 - Bettha: A própria empresa
 - Candidatos: Jovens que encontram a Bettha enquanto procuram por experiência profissional;
@@ -239,7 +254,7 @@ Riscos:
 - Inteli: A faculdade, que está interessada no desenvolvimento das soluções;
 - Ebettha: Este grupo de desenvolvedores, que irá construir a solução.
 
-&nbsp; &nbsp; &nbsp; Apesar de todas as partes mencionadas anteriormente serem impactadas com as atividades deste projeto, é necessário definir quem representará nossas personas. Dessa forma, conseguiremos mapear e entender as dores dos nossos usuários, levando à construção de uma solução que impacte, de fato, os utilizadores da plataforma da Bettha. Para isso, foi pensada numa matriz de poder x interesse, como pode-se ver abaixo.
+&emsp; Apesar de todas as partes mencionadas anteriormente serem impactadas com as atividades deste projeto, é necessário definir quem representará nossas personas. Dessa forma, conseguiremos mapear e entender as dores dos nossos usuários, levando à construção de uma solução que impacte, de fato, os utilizadores da plataforma da Bettha. Para isso, foi pensada numa matriz de poder x interesse, como pode-se ver abaixo.
 
 <center>Figura xx - Matriz de poder x interesse</center>
 <img src="./images/matriz_poder_interesse.png" alt="Matriz de poder vs interesse">
