@@ -24,7 +24,7 @@
 - <a href="https://www.linkedin.com/in/fatima-toledo/">📈 Fátima Toledo - Professora de Business</a>
 - <a href="https://www.linkedin.com/in/cristiano-benites-687647a8/">👨‍💻 Cristiano Benites - Professor de Programação</a> 
 - <a href="https://www.linkedin.com/in/francisco-escobar/">🎨 Francisco Escobar - Professor de Design UX/UI </a> 
-- <a href="https://www.linkedin.com/in/geraldo-magela-severino-vasconcelos-22b1b220/">🧮 Geraldo Magela -Professor de Programação</a>
+- <a href="https://www.linkedin.com/in/geraldo-magela-severino-vasconcelos-22b1b220/">🧮 Geraldo Magela - Professor de Matemática</a>
 
 ## 📝 Descrição
 
