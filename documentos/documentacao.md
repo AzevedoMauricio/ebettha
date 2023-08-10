@@ -226,7 +226,7 @@ Riscos:
 
 &nbsp; &nbsp; &nbsp; A partir da matriz de riscos, foi possível montar a tabela de gestão de riscos, que pode ser listada abaixo:
 
-<img src="./images/Tabela_gestao_de_risco" alt="Gestão de Riscos" >
+<img src="./images/Tabela_gestao_de_risco.png" alt="Gestão de Riscos" >
 <center>Fonte: Elaborado pelos autores</center>
 
 #### 4.1.6. Personas
