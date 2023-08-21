@@ -98,6 +98,7 @@ Remova este bloco ao final
 &emsp; A Bettha atua no setor de recrutamento e seleção. Ao pensar nesta área, é comum lembrar de grandes nomes, tais quais Linkedin, Catho e Gupy. Tal coisa já é um forte indicativo de que este mercado se caracteriza como um oceano vermelho. Contudo, para que seja possível realizar uma investigação mais precisa, este grupo fez uma análise baseada nas 5 forças de Porter, estudando quem são os concorrentes atuais e potenciais da Bettha, bem como seus clientes, fornecedores e produtos que possam vir a substituí-la. Com isso, foi possível chegar na tabela mostrada a seguir, cuja explicação vem logo abaixo.
 
 <p style="text-align: center">Tabela 01 - Análise da indústria na qual a Bettha está inserida</p>
+
 | Força | Quem são? | Quais ameaças? | Quais as minhas possíveis reações? |
 |:---:|:---:|:---:|:---:|
 | Concorrentes atuais | Grupo 01: LinkedIn, Gupy e Catho. & Grupo 02: Cia de estágios, Matchbox, Across e Espro. | Grupo 01: Empresas que atuam no mesmo nicho e que podem ganhar preferência das empresas e usuários. & Grupo 02: Investimento pesado em marketing, o que pode acarretar na preferência das empresas e usuários. | Rebranding, implementação de novas tecnologias e investimento em marketing |
@@ -105,6 +106,7 @@ Remova este bloco ao final
 | Produtos substitutos | Trybe, Cubos Academy, Ada Tech Alura e Tera | Fornecem formação completa em tecnologia e, por terem parceria com diversas empresas, possuem um índice de empregabilidade. | Expandir relacionamento já existente com empresas parceiras para ofertar capacitação e garantir a geração de novos empregos. |
 | Fornecedores | AWS, conexão com internet, energia e infraestrutura no geral | Vazamento de dados, instabilidade na hospedagem da plataforma, ataques hackers e indisponibilidade de serviços. | Diversificar o serviço de armazenamento e hospedagem em nuvem, investir em segurança de dados e buscar acordo em relação aos preços. |
 | Clientes | Empresas e candidatos | Empresas anunciarem vagas em outras plataformas e, por consequência, os candidatos se cadastrarem em outros lugares. | Para empresas, criar planos para fidelizar e atrair o anúncio de vagas. Para usuários, recomendar trilhas de capacitação e melhorar a UX do site. |
+
 <p style="text-align: center">Fonte: Elaborada pelos autores</p>
 
 &emsp; Iniciando-se a análise pelos concorrentes atuais, verifica-se dois grandes grupos que se caracterizam como concorrência direta. O primeiro deles enquadram empresas como LinkedIn, Gupy e Catho, que já são muito consagradas no ramo e investem pesado em marketing. Isso pode fazer com que as empresas que oferecerão vagas tenham preferência por elas, deixando a Bettha em segundo plano.
@@ -285,6 +287,7 @@ Uma síntese dessa discussão pode ser observada na matriz de 5 forças de Porte
 &emsp; Por fim, de posse de todos os riscos, é necessário pensar no gerenciamento deles. Isto pode ser conferido na tabela abaixo.
 
 <p style="text-align: center">Tabela 02 - Gestão de riscos</p>
+
 | Risco | Responsável | Abordagem | Explicação |
 |---|---|---|---|
 | Desentendimento entre o grupo | Scrum Master | Reduzir e mitigar | O scrum master da semana deve utilizar das técnicas de comunicação não violenta para garantir que desentendimentos entre o grupo não causem danos significativos no desenvolvimento do projeto |
