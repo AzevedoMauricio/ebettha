@@ -392,6 +392,79 @@ Remova este bloco ao final
 ```
 
 #### 4.2.2. Pré-processamento dos dados
+Esta documentação oferece um guia detalhado para o pré-processamento. Cobrindo desde a limpeza inicial dos dados até consultas específicas para o entendimento das variáveis, a documentação oferece uma abordagem passo a passo para preparar os dados para análises subsequentes. Também são destacadas as técnicas utilizadas para o tratamento de campos de data, remoção de colunas irrelevantes e tratamento de dados faltantes. Este guia serve como um recurso abrangente para entender e replicar o processo de pré-processamento dos dados.
+
+#### A. **Pré-processamento dos dados de `job_opportunity_superfit_consolidates.csv`**
+
+- **Leitura do conjunto de dados**: Carregado o arquivo `job_opportunity_superfit_consolidates.csv` para um DataFrame usando a biblioteca pandas.
+
+- **Remoção da coluna `average_distance`**: Decidiu-se remover a coluna `average_distance` para simplificar a análise ou devido à irrelevância para a investigação proposta.
+
+- **Exportação do DataFrame processado**: O DataFrame, após o pré-processamento, foi salvo em um novo arquivo chamado `prep_df_jb_opp_superfit.csv`.
+
+---
+
+#### B. **Pré-processamento dos dados de `job_opportunity_workstyle_consolidates.csv`**
+
+- **Remoção da coluna `average_distance`**: Optou-se por remover esta coluna, assim como no primeiro notebook.
+
+- **Exportação**: Salvo como `prep_df_jb_opp_workstyle.csv`.
+
+---
+
+#### C. **Consultas de dados de `journey_hardskills - journeys_inteli.csv`**
+
+- **Visualização dos primeiros registros**: Utilizado o método `head()` para ter uma rápida visão dos dados iniciais.
+
+- **Verificação da coluna `average_rating`**: A coluna foi individualmente inspecionada, possivelmente para entender sua distribuição ou valores específicos.
+
+---
+
+#### D. **Pré-processamento dos dados de `user_journeys_inteli.csv`**
+
+- **Remoção das colunas**: As colunas `ano` e `fim` foram removidas após extração de informações necessárias.
+
+---
+
+#### E. **Consultas de dados de `journeys_inteli.csv`**
+
+- **Valores únicos na coluna `name`**: A consulta foi feita para entender as diferentes categorias ou tipos presentes na coluna.
+
+---
+
+#### F. **Pré-processamento dos dados de `user_interests_inteli.csv`**
+
+- **Renomeação da coluna `name`**: Decidiu-se que o nome "area" seria mais descritivo para o conjunto de dados em questão, então a coluna foi renomeada.
+
+---
+
+#### G. **Pré-processamento dos dados de `user_objectives_inteli.csv`**
+
+- **Renomeação da coluna `name`**: Similar ao notebook anterior, a coluna foi renomeada para ser mais descritiva, neste caso para "objective".
+
+---
+
+#### H. **Consultas de dados de `user_lifestyle.csv`**
+
+- **Valores mínimo e máximo**: Estas consultas foram feitas para entender a variação ou amplitude dos dados na coluna `lifestyle_classic`.
+
+---
+
+#### I. **Consultas de dados de `users_contratados.csv`**
+
+- **Verificação de valores faltantes**: Feito para entender a integridade dos dados e identificar possíveis necessidades de tratamento.
+
+---
+
+#### J. **Consultas de dados de `user_superfit.csv`**
+
+- **Valores únicos na coluna `superfit_int`**: Verificação feita para entender as diferentes categorias ou estados na coluna.
+
+---
+
+#### K. **Pré-processamento dos dados de `users_tests_inteli.csv`**
+
+- **Tratamento de dados faltantes**: Todos os valores NaN foram substituídos por 0, o que sugere que 0 pode ser interpretado como um estado padrão ou ausência de informação.
 
 ```
 Apresentar quais foram as ações realizadas de limpeza (tratamento de
