@@ -133,7 +133,7 @@ Remova este bloco ao final
 Uma síntese dessa discussão pode ser observada na matriz de 5 forças de Porter na imagem abaixo.
 
 <div style="text-align: center">Figura 01 - 5 forças de porter - Bettha</div>
-<img src="./images/5 forças de porter - Bettha.png" alt="5 forças de Porter" >
+<img src="./../images/5 forças de porter - Bettha.png" alt="5 forças de Porter" >
 <div style="text-align: center">Fonte: Elaborado pelos autores</div>
 
 &emsp; Esclarecendo uma última vez:
@@ -149,7 +149,7 @@ Uma síntese dessa discussão pode ser observada na matriz de 5 forças de Porte
 &emsp; Na análise SWOT, avalia-se os pontos fortes e fracos de uma empresa, observando o cenário externo à organização, assim como o cenário interno. Sua importância reside na de criação de um panorama geral da empresa, o qual permite avaliar e evidenciar situações que podem ser desfavoráveis para a empresa, possibilitando a tomada de decisões para conter o problema. Ela também é capaz de gerar insights acerca de como conquistar oportunidades existentes no mercado. Sabendo disso, este grupo realizou a referida análise, cujo resultado pode ser conferido na imagem abaixo.
 
 <div style="text-align: center">Figura 02 - Análise SWOT - Bettha</div>
-<img src="./images/Análise SWOT - Bettha.png" alt="Análise SWOT" >
+<img src="./../images/Análise SWOT - Bettha.png" alt="Análise SWOT" >
 <div style="text-align: center">Fonte: Elaborado pelos autores</div>
 
 &emsp; Agora, é necessário entender cada um dos pontos destacados. Iniciando-se pelas forças, do inglês “strengths”, onde foi analisado todos os pontos positivos da organização que colocam ela à frente de outras organizações do mesmo setor. Além disso, estes são pontos que dependem da Bettha, ou seja, ela tem influência e consegue interferir. Enumera-se:
@@ -200,7 +200,7 @@ Uma síntese dessa discussão pode ser observada na matriz de 5 forças de Porte
 &emsp; Assim, baseando-se na análise feita sobre a Bettha, bem como na solução a ser desenvolvida neste projeto, foi possível chegar ao resultado exibido abaixo.
 
 <div style="text-align: center">Figura 03 - Value Proposition Canvas Ebettha</div>
-<img src="./images/VPC.png" alt="Value Proposition Canvas" >
+<img src="./../images/VPC.png" alt="Value Proposition Canvas" >
 <div style="text-align: center">Fonte: Elaborado pelos autores</div>
 
 &emsp; Para melhor entendimento, é necessário aprofundar-se em cada um dos indicadores mencionados. Iniciando a análise
@@ -247,7 +247,7 @@ Uma síntese dessa discussão pode ser observada na matriz de 5 forças de Porte
 &emsp; Com base nos impactos e nas probabilidades de ocorrência, os riscos foram classificados em quatro categorias: baixa, média, alta e muito alta. A partir disso, foi possível montar a matriz de riscos, que pode ser listada abaixo.
 
 <div style="text-align: center">Figura 04 - Matriz de riscos - Projeto Ebettha</div>
-<img src="./images/Matriz_de_risco.png" alt="Matriz de riscos - Projeto Ebettha" >
+<img src="./../images/Matriz_de_risco.png" alt="Matriz de riscos - Projeto Ebettha" >
 <div style="text-align: center">Fonte: Elaborado pelos autores</div>
 
 &emsp; É importante entender como se deu a avaliação para posicionar cada um dos riscos e oportunidades. Em relação aos riscos:
@@ -319,7 +319,7 @@ Uma síntese dessa discussão pode ser observada na matriz de 5 forças de Porte
 &emsp; Para isso, foi pensada numa matriz de poder x interesse, a qual mapeia o nível de poder, isto é, o nível de capacidade de um agente intervir no resultado de determinada ação, mas também o interesse, ou seja, o quão aquela parte está interessada nos resultados do desenvolvimento de um projeto e será impactada por tais. O resultado pode ser visualizado abaixo.
 
 <center>Figura 05 - Matriz de poder x interesse</center>
-<img src="./images/matriz_poder_interesse.png" alt="Matriz de poder vs interesse">
+<img src="./../images/matriz_poder_interesse.png" alt="Matriz de poder vs interesse">
 <center>Fonte: Elaborado pelos autores</center>
 
 &emsp; O empregador é a peça que mais detém poder, uma vez que são os principais clientes da Bettha e, por isso, a plataforma deve atender aos seus pedidos. Além disso, esta também é a parte mais interessada no desenvolvimento de novas ferramentas que agreguem valor.  
@@ -331,31 +331,31 @@ Uma síntese dessa discussão pode ser observada na matriz de 5 forças de Porte
 &emsp; A primeira persona chama-se Rafael Tambosi, de 19 anos, aluno do terceiro ano de ciência da computação na USP. Ele conheceu a Bettha quando precisou aplicar para uma vaga, mas não conseguiu ser aceito. Suas principais dores incluem não possuir as soft skills necessárias para ser aceito, bem como não saber exatamente qual vaga combina com ele. Com base nisso, foi possível montar um mapa de empatia e estruturar a persona fisicamente, como pode ser visto nas figuras 06 e 07.
 
 <center>Figura 06 - Matriz de empatia: Rafael Tambosi</center>
-<img src="./images/empatia-rafael.png" alt="Mapa de empatia de Rafael Tambosi">
+<img src="./../images/empatia-rafael.png" alt="Mapa de empatia de Rafael Tambosi">
 <center>Fonte: Elaborado pelos autores</center>
 
 <center>Figura 07 - Persona: Rafael Tambosi</center>
-<img src="./images/persona-rafael.png" alt="Persona: Rafael Tambosi">
+<img src="./../images/persona-rafael.png" alt="Persona: Rafael Tambosi">
 <center>Fonte: Elaborado pelos autores</center>
 
 &emsp; A segunda persona é Natália Mafra, de 24 anos e graduada em Web Design pela FIAP. Ela conheceu a Bettha por acaso, mas nunca aplicou para nenhuma vaga na plataforma. Ela também estagiou no mercado financeiro, mas não gostou da experiência. Suas dores estão relacionadas a temer a cultura da empresa onde irá trabalhar, assim como problemas de comunicação. Seu mapa de empatia e representação visual estão abaixo.
 
 <center>Figura 08 - Matriz de empatia: Natália Mafra</center>
-<img src="./images/empatia-natalia.png" alt="Mapa de empatia de Natália Mafra">
+<img src="./../images/empatia-natalia.png" alt="Mapa de empatia de Natália Mafra">
 <center>Fonte: Elaborado pelos autores</center>
 
 <center>Figura 09 - Persona: Natália Mafra</center>
-<img src="./images/persona-natalia.png" alt="Persona: Natália Mafra">
+<img src="./../images/persona-natalia.png" alt="Persona: Natália Mafra">
 <center>Fonte: Elaborado pelos autores</center>
 
 &emsp; Por fim, o Wagner Peixoto representa a terceira persona. Ele tem 37 anos e é Tech Lead no Spotify, mas iniciou sua carreira como estagiário no Banco Votorantim, enquanto cursava Engenharia da Computação na USP. Suas dores estão relacionadas a não concordar com a seleção que o RH faz quanto aos estagiários que ficarão sob sua responsabilidade, bem como dificuldade em se relacionar com jovens sem ambição. O mapa de empatia e persona podem ser vistos abaixo.
 
 <center>Figura 10 - Matriz de empatia: Wagner Peixoto</center>
-<img src="./images/empatia-wagner.png" alt="Mapa de empatia de Wagner Peixoto">
+<img src="./../images/empatia-wagner.png" alt="Mapa de empatia de Wagner Peixoto">
 <center>Fonte: Elaborado pelos autores</center>
 
 <center>Figura 11 - Persona: Wagner Peixoto</center>
-<img src="./images/persona-wagner.png" alt="Persona: Wagner Peixoto">
+<img src="./../images/persona-wagner.png" alt="Persona: Wagner Peixoto">
 <center>Fonte: Elaborado pelos autores</center>
 
 #### 4.1.7. Jornadas do Usuário
@@ -363,7 +363,7 @@ Uma síntese dessa discussão pode ser observada na matriz de 5 forças de Porte
 &emsp; Neste tópico, será abordado o mapa de jornada do usuário, que consiste em uma representação visual das etapas pelas quais um usuário passa ao interagir com uma plataforma, destacando as emoções e ações que o usuário tem ao interagir com ela. Ele ajuda a identificar pontos de melhoria bem como entender as dores enfrentadas pelo usuário. Abaixo, é possível identificar o mapa de jornada de Natália Mafra, caso ela venha a se candidatar na Bettha.
 
 <center>Figura 12 - Mapa de jornada do usuário: Natália Mafra</center>
-<img src="./images/jornada-natalia.jpg" alt="Mapa de jornada do usuário: Natália Mafra">
+<img src="./../images/jornada-natalia.jpg" alt="Mapa de jornada do usuário: Natália Mafra">
 <center>Fonte: Elaborado pelos autores</center>
 
 #### 4.1.8 Política de Privacidade
@@ -392,6 +392,79 @@ Remova este bloco ao final
 ```
 
 #### 4.2.2. Pré-processamento dos dados
+Esta documentação oferece um guia detalhado para o pré-processamento. Cobrindo desde a limpeza inicial dos dados até consultas específicas para o entendimento das variáveis, a documentação oferece uma abordagem passo a passo para preparar os dados para análises subsequentes. Também são destacadas as técnicas utilizadas para o tratamento de campos de data, remoção de colunas irrelevantes e tratamento de dados faltantes. Este guia serve como um recurso abrangente para entender e replicar o processo de pré-processamento dos dados.
+
+#### A. **Pré-processamento dos dados de `job_opportunity_superfit_consolidates.csv`**
+
+- **Leitura do conjunto de dados**: Carregado o arquivo `job_opportunity_superfit_consolidates.csv` para um DataFrame usando a biblioteca pandas.
+
+- **Remoção da coluna `average_distance`**: Decidiu-se remover a coluna `average_distance` para simplificar a análise ou devido à irrelevância para a investigação proposta.
+
+- **Exportação do DataFrame processado**: O DataFrame, após o pré-processamento, foi salvo em um novo arquivo chamado `prep_df_jb_opp_superfit.csv`.
+
+---
+
+#### B. **Pré-processamento dos dados de `job_opportunity_workstyle_consolidates.csv`**
+
+- **Remoção da coluna `average_distance`**: Optou-se por remover esta coluna, assim como no primeiro notebook.
+
+- **Exportação**: Salvo como `prep_df_jb_opp_workstyle.csv`.
+
+---
+
+#### C. **Consultas de dados de `journey_hardskills - journeys_inteli.csv`**
+
+- **Visualização dos primeiros registros**: Utilizado o método `head()` para ter uma rápida visão dos dados iniciais.
+
+- **Verificação da coluna `average_rating`**: A coluna foi individualmente inspecionada, possivelmente para entender sua distribuição ou valores específicos.
+
+---
+
+#### D. **Pré-processamento dos dados de `user_journeys_inteli.csv`**
+
+- **Remoção das colunas**: As colunas `ano` e `fim` foram removidas após extração de informações necessárias.
+
+---
+
+#### E. **Consultas de dados de `journeys_inteli.csv`**
+
+- **Valores únicos na coluna `name`**: A consulta foi feita para entender as diferentes categorias ou tipos presentes na coluna.
+
+---
+
+#### F. **Pré-processamento dos dados de `user_interests_inteli.csv`**
+
+- **Renomeação da coluna `name`**: Decidiu-se que o nome "area" seria mais descritivo para o conjunto de dados em questão, então a coluna foi renomeada.
+
+---
+
+#### G. **Pré-processamento dos dados de `user_objectives_inteli.csv`**
+
+- **Renomeação da coluna `name`**: Similar ao notebook anterior, a coluna foi renomeada para ser mais descritiva, neste caso para "objective".
+
+---
+
+#### H. **Consultas de dados de `user_lifestyle.csv`**
+
+- **Valores mínimo e máximo**: Estas consultas foram feitas para entender a variação ou amplitude dos dados na coluna `lifestyle_classic`.
+
+---
+
+#### I. **Consultas de dados de `users_contratados.csv`**
+
+- **Verificação de valores faltantes**: Feito para entender a integridade dos dados e identificar possíveis necessidades de tratamento.
+
+---
+
+#### J. **Consultas de dados de `user_superfit.csv`**
+
+- **Valores únicos na coluna `superfit_int`**: Verificação feita para entender as diferentes categorias ou estados na coluna.
+
+---
+
+#### K. **Pré-processamento dos dados de `users_tests_inteli.csv`**
+
+- **Tratamento de dados faltantes**: Todos os valores NaN foram substituídos por 0, o que sugere que 0 pode ser interpretado como um estado padrão ou ausência de informação.
 
 ```
 Apresentar quais foram as ações realizadas de limpeza (tratamento de
