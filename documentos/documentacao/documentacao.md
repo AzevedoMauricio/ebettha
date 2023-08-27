@@ -425,7 +425,7 @@ for i, v in enumerate(key_ranking.head(10)):
 
 plt.show()
 
-<div style="text-align: center">Figura 04 - Teste de hipótese 1 - Projeto Ebettha</div>
+<div style="text-align: center">Figura 13 - Teste de hipótese 1 - Projeto Ebettha</div>
 <img src="./../images/grafico_1.png" alt="Top 10 chaves que mais se repetem - Projeto Ebettha" >
 <div style="text-align: center">Fonte: Elaborado pelos autores</div>
 
@@ -460,7 +460,7 @@ for i, v in enumerate(key_counts.values):
 ##### Exibe o gráfico
 plt.show()
 
-<div style="text-align: center">Figura 04 - Teste de hipótese 2 - Projeto Ebettha</div>
+<div style="text-align: center">Figura 14 - Teste de hipótese 2 - Projeto Ebettha</div>
 <img src="./../images/grafico_2.png" alt="Contagem de todas as chaves - Projeto Ebettha" >
 <div style="text-align: center">Fonte: Elaborado pelos autores</div>
 
@@ -503,7 +503,7 @@ plt.title('Comparação entre Score Specialist e Score Generalist')
 
 plt.show()
 
-<div style="text-align: center">Figura 04 - Teste de hipótese 3 - Projeto Ebettha</div>
+<div style="text-align: center">Figura 15 - Teste de hipótese 3 - Projeto Ebettha</div>
 <img src="./../images/grafico_3.png" alt="Comparação entre Score_Specialist X Score_Generalist - Projeto Ebettha" >
 <div style="text-align: center">Fonte: Elaborado pelos autores</div>
 
