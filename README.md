@@ -36,9 +36,21 @@ Dentre os arquivos presentes na raiz do projeto, definem-se:
 
 - <b>readme.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
-- <b>documentos</b>: aqui estarão todos os documentos do projeto. Há também uma pasta denominada <b>outros</b> onde estão presentes documentos complementares.
+- <b>documentos</b>: aqui estarão todos os documentos do projeto, incluindo a documentação do projeto e outros documentos complementares.
 
 - <b>notebooks</b>: todos os Jupyter Notebooks criados na plataforma Colab para desenvolvimento do projeto.
+
+A estrutura de pastas se encontra distribuída da seguinte forma:
+|--> documentos<br>
+&emsp;| --> dicionário de dados _(Este diretório contém um documento com informação sobre os dados utilizados no projeto. Disponível em formatos PDF e DOCX)_ <br>
+&emsp; &emsp;| --> Dicionário de dados.docx <br>
+&emsp; &emsp;| --> Dicionário de dados.pdf <br>
+&emsp;| --> documentacao _(Diretório que armazena a documentação do projeot em formatos PDF, DOCX e MD)_ <br>
+&emsp; &emsp;| --> Documentação.docx <br>
+&emsp; &emsp;| --> Documentação.pdf <br>
+&emsp; &emsp;| --> documentacao.md <br>
+&emsp;| --> images _(Armazena as imagens utilizadas na documentação)_ <br>
+&emsp;| --> outros _(Contém outros documentos relevantes para o projeto)_ <br>
 
 ## 💻 Execução dos projetos
 
@@ -49,8 +61,12 @@ Para replicação (reexecução dos códigos), o botão `Open in Colab` disponí
 
 ## 🗃 Histórico de lançamentos
 
-* 0.0.1 - 13/08/2023
+* 0.1.0 - 13/08/2023
     * Início da escrita da documentação do projeto com análise de negócios e UX.
+* 0.2.0 - 24/08/2023
+    * Criação do dicionário de dados.
+* 0.2.1 - 27/08/2023
+    * Preenchimento de parte da documentação relativa às hipóteses, exploração e pré-processamento de dados.
 
 ## 📋 Licença/License
 
