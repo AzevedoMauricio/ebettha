@@ -390,6 +390,124 @@ visualizar a relação entre colunas escolhidas pelo grupo.
 
 Remova este bloco ao final
 ```
+Tendo em vista de que era necessário a elaboração dos gráficos para a visualização da relação entre as colunas, foi necessário a utilização da biblioteca `matplotlib.pyplot` para a criação dos gráficos. Junto com a biblioteca, também tivemos o entendimento através da estatística descritiva básica de cada coluna, identificando se a coluna é numérica ou categórica para poder analisar os dados e elaborar os gráficos que mais fazem sentido para a visualização dos dados.
+
+Primeiro gráfico:
+O gráfico de barras plota as 10 chaves mais frequentes e sua contagem correspondente. Cada barra representa uma chave e a altura da barra representa a contagem de ocorrências dessa chave. As etiquetas de texto acima das barras mostram o número exato de ocorrências. Esse tipo de gráfico ajuda a visualizar rapidamente as chaves mais frequentes nos dados.
+
+Código: 
+import pandas as pd
+import matplotlib.pyplot as plt
+
+##### Lendo dados de um arquivo CSV
+df = pd.read_csv('prep_df_user_superfit.csv')
+
+##### Contando as ocorrências de cada chave
+key_counts = df['key'].value_counts()
+
+##### Ordenando as chaves pela contagem de ocorrências em ordem decrescente
+key_ranking = key_counts.sort_values(ascending=False)
+
+##### Exibindo o ranking
+print("Ranking das chaves que mais se repetem:")
+print(key_ranking)
+
+##### Plotando o gráfico
+plt.figure(figsize=(12, 8))  # Ajuste o tamanho do gráfico conforme necessário
+ax = key_ranking.head(10).plot(kind='bar')  # Exibe apenas as 10 chaves mais frequentes
+plt.title('Top 10 chaves que mais se repetem')
+plt.xlabel('Chave')
+plt.ylabel('Contagem')
+
+##### Adicionando etiquetas de texto com a contagem
+for i, v in enumerate(key_ranking.head(10)):
+    ax.text(i, v + 0.2, str(v), ha='center', va='bottom')
+
+plt.show()
+
+<div style="text-align: center">Figura 04 - Teste de hipótese 1 - Projeto Ebettha</div>
+<img src="./../images/grafico_1.png" alt="Top 10 chaves que mais se repetem - Projeto Ebettha" >
+<div style="text-align: center">Fonte: Elaborado pelos autores</div>
+
+Segundo gráfico:
+O gráfico de barras cria uma visualização da frequência de cada valor único na coluna 'key' do DataFrame(base de dados fornecido pelo Bettha). Cada barra representa um valor único, e a altura da barra representa a frequência desse valor. A adição das contagens acima das barras ajuda a entender rapidamente quantas vezes cada valor aparece. Esse tipo de gráfico é útil para entender a distribuição de frequência dos diferentes valores em uma coluna categórica.
+
+Código: 
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('prep_df_user_superfit.csv')
+
+##### Conta a frequência de cada valor único na coluna 'key'
+key_counts = df['key'].value_counts()
+
+##### Ordena os valores pela frequência, em ordem decrescente
+key_counts = key_counts.sort_values(ascending=False)
+
+##### Cria o gráfico de barras
+plt.figure(figsize=(10, 6))
+plt.bar(key_counts.index, key_counts.values)
+
+##### Adiciona rótulos e títulos
+plt.xlabel('Keys')
+plt.ylabel('Quantidade')
+plt.title('Frequência de Keys')
+
+##### Adiciona a contagem acima das barras
+for i, v in enumerate(key_counts.values):
+    plt.text(i, v + 1, str(v), ha='center', va='bottom')
+
+##### Exibe o gráfico
+plt.show()
+
+<div style="text-align: center">Figura 04 - Teste de hipótese 2 - Projeto Ebettha</div>
+<img src="./../images/grafico_2.png" alt="Contagem de todas as chaves - Projeto Ebettha" >
+<div style="text-align: center">Fonte: Elaborado pelos autores</div>
+
+Terceiro gráfico:
+No geral, esse código compara os valores com os títulos 'score_specialist' e 'score_generalist' no DataFrame e cria um gráfico de barras para mostrar quantas vezes cada uma é maior que a outra. O gráfico é uma visualização útil para comparar esses dois conjuntos de dados e entender as diferenças entre eles.
+
+Código: 
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('prep_1_df_jb_opp_workstyle.csv')
+
+count_specialist = 0
+count_generalist = 0
+
+##### Comparar valores linha por linha
+for index, row in df.iterrows():
+    if row['score_specialist'] > row['score_generalist']:
+        count_specialist += 1
+    elif row['score_generalist'] > row['score_specialist']:
+        count_generalist += 1
+
+##### Preparar dados para o gráfico
+labels = ['Score Specialist', 'Score Generalist']
+values = [count_specialist, count_generalist]
+
+##### Criar o gráfico de barras
+plt.figure(figsize=(8, 5))
+bars = plt.bar(labels, values, color=['blue', 'green'])
+
+##### Adicionar a contagem acima das barras
+for bar in bars:
+    yval = bar.get_height()
+    plt.text(bar.get_x() + bar.get_width()/2, yval, int(yval), va='bottom')  # va: vertical alignment
+
+##### Adicionar rótulos e título
+plt.xlabel('Tipo de Score')
+plt.ylabel('Quantidade')
+plt.title('Comparação entre Score Specialist e Score Generalist')
+
+plt.show()
+
+<div style="text-align: center">Figura 04 - Teste de hipótese 3 - Projeto Ebettha</div>
+<img src="./../images/grafico_3.png" alt="Comparação entre Score_Specialist X Score_Generalist - Projeto Ebettha" >
+<div style="text-align: center">Fonte: Elaborado pelos autores</div>
+
+
 
 #### 4.2.2. Pré-processamento dos dados
 Esta documentação oferece um guia detalhado para o pré-processamento. Cobrindo desde a limpeza inicial dos dados até consultas específicas para o entendimento das variáveis, a documentação oferece uma abordagem passo a passo para preparar os dados para análises subsequentes. Também são destacadas as técnicas utilizadas para o tratamento de campos de data, remoção de colunas irrelevantes e tratamento de dados faltantes. Este guia serve como um recurso abrangente para entender e replicar o processo de pré-processamento dos dados.
