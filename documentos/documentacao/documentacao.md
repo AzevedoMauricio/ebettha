@@ -76,14 +76,16 @@
 
 ## <a name="c3"></a>3. Metodologia
 
-```
+<div style="text-align: center">Figura 01 - Metodologia CRISP-DM - Bettha</div>
+<img src="./../images/metodologia - crisp.png" alt="Metodologia CRISP-DM" >
+<div style="text-align: center">Fonte: Elaborado pelos autores</div>
+
 Descreva as etapas da metodologia CRISP-DM que foram utilizadas para o
 desenvolvimento, citando o referencial teórico. Você deve apenas enunciar
 os métodos, sem dizer ainda como eles foram aplicados, nem quais
 resultados foram obtidos.
 
 Remova este bloco ao final
-```
 
 ## <a name="c4"></a>4. Desenvolvimento e Resultados
 
@@ -132,7 +134,7 @@ Remova este bloco ao final
 &emsp; Nesse sentido, é necessário que a Bettha crie planos que possam fidelizar clientes que já anunciam vagas na sua plataforma, bem como estes programas possam atrair novos clientes. Com isso, os usuários continuariam sendo atraídos para a plataforma. Entretanto, para garantir que o candidato goste do site, é necessário rever a interface, haja vista que ela é muito poluída e não é tão intuitiva.
 Uma síntese dessa discussão pode ser observada na matriz de 5 forças de Porter na imagem abaixo.
 
-<div style="text-align: center">Figura 01 - 5 forças de porter - Bettha</div>
+<div style="text-align: center">Figura 02 - 5 forças de porter - Bettha</div>
 <img src="./../images/5 forças de porter - Bettha.png" alt="5 forças de Porter" >
 <div style="text-align: center">Fonte: Elaborado pelos autores</div>
 
@@ -148,7 +150,7 @@ Uma síntese dessa discussão pode ser observada na matriz de 5 forças de Porte
 
 &emsp; Na análise SWOT, avalia-se os pontos fortes e fracos de uma empresa, observando o cenário externo à organização, assim como o cenário interno. Sua importância reside na de criação de um panorama geral da empresa, o qual permite avaliar e evidenciar situações que podem ser desfavoráveis para a empresa, possibilitando a tomada de decisões para conter o problema. Ela também é capaz de gerar insights acerca de como conquistar oportunidades existentes no mercado. Sabendo disso, este grupo realizou a referida análise, cujo resultado pode ser conferido na imagem abaixo.
 
-<div style="text-align: center">Figura 02 - Análise SWOT - Bettha</div>
+<div style="text-align: center">Figura 03 - Análise SWOT - Bettha</div>
 <img src="./../images/Análise SWOT - Bettha.png" alt="Análise SWOT" >
 <div style="text-align: center">Fonte: Elaborado pelos autores</div>
 
@@ -199,7 +201,7 @@ Uma síntese dessa discussão pode ser observada na matriz de 5 forças de Porte
 
 &emsp; Assim, baseando-se na análise feita sobre a Bettha, bem como na solução a ser desenvolvida neste projeto, foi possível chegar ao resultado exibido abaixo.
 
-<div style="text-align: center">Figura 03 - Value Proposition Canvas Ebettha</div>
+<div style="text-align: center">Figura 04 - Value Proposition Canvas Ebettha</div>
 <img src="./../images/VPC.png" alt="Value Proposition Canvas" >
 <div style="text-align: center">Fonte: Elaborado pelos autores</div>
 
@@ -246,7 +248,7 @@ Uma síntese dessa discussão pode ser observada na matriz de 5 forças de Porte
 
 &emsp; Com base nos impactos e nas probabilidades de ocorrência, os riscos foram classificados em quatro categorias: baixa, média, alta e muito alta. A partir disso, foi possível montar a matriz de riscos, que pode ser listada abaixo.
 
-<div style="text-align: center">Figura 04 - Matriz de riscos - Projeto Ebettha</div>
+<div style="text-align: center">Figura 05 - Matriz de riscos - Projeto Ebettha</div>
 <img src="./../images/Matriz_de_risco.png" alt="Matriz de riscos - Projeto Ebettha" >
 <div style="text-align: center">Fonte: Elaborado pelos autores</div>
 
@@ -318,7 +320,7 @@ Uma síntese dessa discussão pode ser observada na matriz de 5 forças de Porte
 &emsp; Apesar de todas as partes mencionadas anteriormente serem impactadas com as atividades deste projeto, é necessário definir quem representará as personas. Dessa forma, será possível mapear e entender as dores dos nossos usuários, levando à construção de uma solução que impacte, de fato, os utilizadores da plataforma da Bettha.
 &emsp; Para isso, foi pensada numa matriz de poder x interesse, a qual mapeia o nível de poder, isto é, o nível de capacidade de um agente intervir no resultado de determinada ação, mas também o interesse, ou seja, o quão aquela parte está interessada nos resultados do desenvolvimento de um projeto e será impactada por tais. O resultado pode ser visualizado abaixo.
 
-<center>Figura 05 - Matriz de poder x interesse</center>
+<center>Figura 06 - Matriz de poder x interesse</center>
 <img src="./../images/matriz_poder_interesse.png" alt="Matriz de poder vs interesse">
 <center>Fonte: Elaborado pelos autores</center>
 
@@ -328,33 +330,33 @@ Uma síntese dessa discussão pode ser observada na matriz de 5 forças de Porte
 &emsp; Logo após, entra o Inteli, que não exerce poder sobre as tomadas de decisão do projeto, mas possui um pouco de interesse no seu desenvolvimento, haja vista que eles estarão atrelados à imagem da faculdade.  
 &emsp; E, por fim, este grupo de desenvolvedores, denominados Ebettha, possui um nível de interesse alto em ver o modelo preditivo funcionando, mas o seu nível de poder é consideravelmente baixo, tendo em vista que só poderão intervir em regras de negócio sem tanta relevância dentro do código.  
 &emsp; Assim, utilizando essa matriz, foi possível observar que os stakeholders a serem gerenciados de perto são o candidato e o empregador e, por isso, eles representarão as personas desenvolvidas neste trabalho.  
-&emsp; A primeira persona chama-se Rafael Tambosi, de 19 anos, aluno do terceiro ano de ciência da computação na USP. Ele conheceu a Bettha quando precisou aplicar para uma vaga, mas não conseguiu ser aceito. Suas principais dores incluem não possuir as soft skills necessárias para ser aceito, bem como não saber exatamente qual vaga combina com ele. Com base nisso, foi possível montar um mapa de empatia e estruturar a persona fisicamente, como pode ser visto nas figuras 06 e 07.
+&emsp; A primeira persona chama-se Rafael Tambosi, de 19 anos, aluno do terceiro ano de ciência da computação na USP. Ele conheceu a Bettha quando precisou aplicar para uma vaga, mas não conseguiu ser aceito. Suas principais dores incluem não possuir as soft skills necessárias para ser aceito, bem como não saber exatamente qual vaga combina com ele. Com base nisso, foi possível montar um mapa de empatia e estruturar a persona fisicamente, como pode ser visto nas figuras 07 e 08.
 
-<center>Figura 06 - Matriz de empatia: Rafael Tambosi</center>
+<center>Figura 07 - Matriz de empatia: Rafael Tambosi</center>
 <img src="./../images/empatia-rafael.png" alt="Mapa de empatia de Rafael Tambosi">
 <center>Fonte: Elaborado pelos autores</center>
 
-<center>Figura 07 - Persona: Rafael Tambosi</center>
+<center>Figura 08 - Persona: Rafael Tambosi</center>
 <img src="./../images/persona-rafael.png" alt="Persona: Rafael Tambosi">
 <center>Fonte: Elaborado pelos autores</center>
 
 &emsp; A segunda persona é Natália Mafra, de 24 anos e graduada em Web Design pela FIAP. Ela conheceu a Bettha por acaso, mas nunca aplicou para nenhuma vaga na plataforma. Ela também estagiou no mercado financeiro, mas não gostou da experiência. Suas dores estão relacionadas a temer a cultura da empresa onde irá trabalhar, assim como problemas de comunicação. Seu mapa de empatia e representação visual estão abaixo.
 
-<center>Figura 08 - Matriz de empatia: Natália Mafra</center>
+<center>Figura 09 - Matriz de empatia: Natália Mafra</center>
 <img src="./../images/empatia-natalia.png" alt="Mapa de empatia de Natália Mafra">
 <center>Fonte: Elaborado pelos autores</center>
 
-<center>Figura 09 - Persona: Natália Mafra</center>
+<center>Figura 10 - Persona: Natália Mafra</center>
 <img src="./../images/persona-natalia.png" alt="Persona: Natália Mafra">
 <center>Fonte: Elaborado pelos autores</center>
 
 &emsp; Por fim, o Wagner Peixoto representa a terceira persona. Ele tem 37 anos e é Tech Lead no Spotify, mas iniciou sua carreira como estagiário no Banco Votorantim, enquanto cursava Engenharia da Computação na USP. Suas dores estão relacionadas a não concordar com a seleção que o RH faz quanto aos estagiários que ficarão sob sua responsabilidade, bem como dificuldade em se relacionar com jovens sem ambição. O mapa de empatia e persona podem ser vistos abaixo.
 
-<center>Figura 10 - Matriz de empatia: Wagner Peixoto</center>
+<center>Figura 11 - Matriz de empatia: Wagner Peixoto</center>
 <img src="./../images/empatia-wagner.png" alt="Mapa de empatia de Wagner Peixoto">
 <center>Fonte: Elaborado pelos autores</center>
 
-<center>Figura 11 - Persona: Wagner Peixoto</center>
+<center>Figura 12 - Persona: Wagner Peixoto</center>
 <img src="./../images/persona-wagner.png" alt="Persona: Wagner Peixoto">
 <center>Fonte: Elaborado pelos autores</center>
 
@@ -362,7 +364,7 @@ Uma síntese dessa discussão pode ser observada na matriz de 5 forças de Porte
 
 &emsp; Neste tópico, será abordado o mapa de jornada do usuário, que consiste em uma representação visual das etapas pelas quais um usuário passa ao interagir com uma plataforma, destacando as emoções e ações que o usuário tem ao interagir com ela. Ele ajuda a identificar pontos de melhoria bem como entender as dores enfrentadas pelo usuário. Abaixo, é possível identificar o mapa de jornada de Natália Mafra, caso ela venha a se candidatar na Bettha.
 
-<center>Figura 12 - Mapa de jornada do usuário: Natália Mafra</center>
+<center>Figura 13 - Mapa de jornada do usuário: Natália Mafra</center>
 <img src="./../images/jornada-natalia.jpg" alt="Mapa de jornada do usuário: Natália Mafra">
 <center>Fonte: Elaborado pelos autores</center>
 
