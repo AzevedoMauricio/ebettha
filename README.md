@@ -25,6 +25,10 @@
 - <a href="https://www.linkedin.com/in/cristiano-benites-687647a8/">👨‍💻 Cristiano Benites - Professor de Programação</a> 
 - <a href="https://www.linkedin.com/in/francisco-escobar/">🎨 Francisco Escobar - Professor de Design UX/UI </a> 
 - <a href="https://www.linkedin.com/in/geraldo-magela-severino-vasconcelos-22b1b220/">🧮 Geraldo Magela - Professor de Matemática</a>
+- <a href="https://www.linkedin.com/in/marcelo-gon%C3%A7alves-phd-a550652/">👑 Marcelo Gonçalves - Professor de Liderança </a>
+
+### Coach de carreira
+- <a href="https://www.linkedin.com/in/thais-bassani/">💪 Thaís Bassani</a>
 
 ## 📝 Descrição
 
