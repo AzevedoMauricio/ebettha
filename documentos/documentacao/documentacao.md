@@ -76,10 +76,6 @@
 
 ## <a name="c3"></a>3. Metodologia
 
-<div style="text-align: center">Figura 01 - Metodologia CRISP-DM - Bettha</div>
-<img src="./../images/metodologia - crisp.png" alt="Metodologia CRISP-DM" >
-<div style="text-align: center">Fonte: Elaborado pelos autores.</div>
-
 &emsp; CRISP-DM é uma sigla que, em português, significa “Processo Padrão Inter-Indústrias para Mineração de Dados”. Trata-se de uma metodologia muito utilizada atualmente por empresas que buscam desenvolver estratégias para prever e resolver problemas com base em dados já existentes (ROBERTO, 2023).
 
 &emsp; A metodologia CRISP-DM é um ciclo que possui seis estágios, sendo eles: entendimento do negócio; entendimento dos dados; preparação de dados; modelagem; avaliação e implementação. Esses estágios podem ser iterativos, ou seja, durante a análise dos dados novos insights e dúvidas podem surgir e caso isso aconteça, essa metodologia possibilita a dinâmica de retornar alguns dos estágios para alteração, se for necessário (AFFONSO, 2023).
@@ -89,6 +85,10 @@
 &emsp; Outrossim, o terceiro estágio é a preparação dos dados, ou melhor dizendo, comparar, agrupar, dividir ou reorganizar os dados recebidos, caso necessário. Para o projeto em parceria com a Bettha, essa etapa foi realizada em equipe e foi imprescindível para o começo do próximo estágio, que é a modelagem do projeto. A modelagem consiste em inserir os dados do problema em algum modelo de aprendizado. 
 
 &emsp; Os próximos estágios são avaliação e implementação, os quais consistem em testar e analisar os resultados de uma possível implementação no mercado e, por fim, se os resultados forem favoráveis, implementar o projeto no mercado. Entretanto, essas duas etapas ainda não foram realizadas devido ao andamento do projeto, pois o grupo está no estágio de modelagem.
+
+<div style="text-align: center">Figura 01 - Metodologia CRISP-DM - Bettha</div>
+<img src="./../images/metodologia - crisp.png" alt="Metodologia CRISP-DM" >
+<div style="text-align: center">Fonte: Elaborado pelos autores.</div>  
 
 
 ## <a name="c4"></a>4. Desenvolvimento e Resultados
