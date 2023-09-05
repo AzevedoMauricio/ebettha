@@ -512,6 +512,13 @@ d) Escolha de um tipo de sistema de recomendação e a justificativa
 
 Remova este bloco ao final
 ```
+&emsp;  O K foi definido como os gestores, caracterizando esses clusters como parâmetros para relacionar os candidatos atuais e possíveis novos que mais se assemelham aos requisitos estabelecidos pelos mesmos.
+Os gestores foram escolhidos como o valor de K porque isso faz mais sentido para a equipe, permitindo que eles centralizem os pontos no gráfico, posicionando-os em torno dos clusters designados. Esses clusters, por sua vez, representam os gestores. Além disso, os pontos que representam os usuários também são dispostos no gráfico.
+&emsp;  Após a definição dos clusters, o próximo passo será aplicar o modelo de aprendizado não supervisionado K-means. Esse modelo agrupará os pontos de dados em clusters com base em sua semelhança. Uma vez feita a clusterização, será realizada uma otimização para refinar os clusters e a distribuição dos pontos.
+&emsp;  Em seguida, será aplicado o modelo KNN (K-Vizinhos Mais Próximos) para analisar quais são os usuários mais próximos dos clusters. O KNN é um algoritmo de classificação que identifica a classe mais próxima de um ponto com base na distância. Nesse contexto, ele será usado para determinar quais usuários estão mais alinhados com as características dos clusters designados.
+&emsp; Essa abordagem permitirá que a equipe identifique os candidatos atuais e potenciais que melhor se encaixam nos requisitos estabelecidos pelos gestores, facilitando a tomada de decisões informadas em relação às contratações e alocações.
+
+
 
 ### 4.4. Comparação de Modelos
 
