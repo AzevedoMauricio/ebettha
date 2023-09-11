@@ -71,6 +71,8 @@ Para replicação (reexecução dos códigos), o botão `Open in Colab` disponí
     * Criação do dicionário de dados.
 * 0.2.1 - 27/08/2023
     * Preenchimento de parte da documentação relativa às hipóteses, exploração e pré-processamento de dados.
+* 0.3.0 - 10/09/2023
+    * Lançamento do primeiro modelo (protótipo) de compatibilidade entre gestor e candidato.
 
 ## 📋 Licença/License
 
