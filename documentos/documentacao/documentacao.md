@@ -539,9 +539,9 @@ Vamos utilizar a filtragem colaborativa porque, no entendimento das matrizes que
 
 
 ### 4.4. Comparação de Modelos
-&espm; Ao todo foram 3 modelos desenvolvidos pelo grupo, sendo que apenas um apresenta hiperparâmetros, ou seja, apresenta configurações ajustáveis ​​que determinam o comportamento e o desempenho de Machine Learning.
+&emsp; Ao todo foram 3 modelos desenvolvidos pelo grupo, sendo que apenas um apresenta hiperparâmetros, ou seja, apresenta configurações ajustáveis ​​que determinam o comportamento e o desempenho de Machine Learning.
 
-&espm; Entretanto, esse modelo em específico não será utilizado para o desenvolvimento do projeto devido à decisão do grupo, com isso não teve a necessidade de otimizá-lo. Portanto, o modelo selecionado será um dos dois modelos que não possuem hiperparâmetros.
+&emsp; Entretanto, esse modelo em específico não será utilizado para o desenvolvimento do projeto devido à decisão do grupo, com isso não teve a necessidade de otimizá-lo. Portanto, o modelo selecionado será um dos dois modelos que não possuem hiperparâmetros.
 ```
 - Descrever e justificar a escolha da métrica de avaliação dos
   modelos com base no que é mais importante para o problema ao
