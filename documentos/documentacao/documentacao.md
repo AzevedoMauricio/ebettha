@@ -388,14 +388,11 @@ Uma síntese dessa discussão pode ser observada na matriz de 5 forças de Porte
 ### 4.2. Compreensão dos Dados
 
 #### 4.2.1. Exploração de dados
-
-```
-Apresentar a estatística descritiva básica de cada coluna, identificar
-se a coluna é numérica ou categórica e pelo menos 3 gráficos para
-visualizar a relação entre colunas escolhidas pelo grupo.
-
-Remova este bloco ao final
-```
+Considerando a proposta de solução anteriormente apresentada, fez-se necessário trabalhar com sete tabelas de dados distintas, as quais armazenam os resultados dos usuários nos testes: genius, lifestyle, workstyle, inglês, Excel e solu. Além disso, também se selecionou tabelas referentes às jornadas de conhecimento do Bettha e dos usuários que foram contratados em alguma das vagas oferecidas em sua plataforma.
+A partir daí, visando um melhor entendimento dos dados selecionados, foi elaborado um dicionário que mostra o nome e exemplo de preenchimento de cada tabela, assim como sua descrição e tamanho. Além disso, as colunas foram também descritas como categóricas e numéricas e foi realizada uma análise descritiva dos dados que contempla: 
+Medidas de tendência central: Média, mediana e moda;
+Medidas de dispersão: Desvio padrão, amplitude e percentis 25, 50 e 75.
+Este dicionário, bem como o notebook utilizado para obter as descrições mencionadas acima, podem ser conferidos no anexo I deste documento.
 
 #### 4.2.2. Pré-processamento dos dados
 Esta documentação oferece um guia detalhado para o pré-processamento. Cobrindo desde a limpeza inicial dos dados até consultas específicas para o entendimento das variáveis, a documentação oferece uma abordagem passo a passo para preparar os dados para análises subsequentes. Também são destacadas as técnicas utilizadas para o tratamento de campos de data, remoção de colunas irrelevantes e tratamento de dados faltantes. Este guia serve como um recurso abrangente para entender e replicar o processo de pré-processamento dos dados.
@@ -471,6 +468,52 @@ Esta documentação oferece um guia detalhado para o pré-processamento. Cobrind
 #### K. **Pré-processamento dos dados de `users_tests_inteli.csv`**
 
 - **Tratamento de dados faltantes**: Todos os valores NaN foram substituídos por 0, o que sugere que 0 pode ser interpretado como um estado padrão ou ausência de informação.
+---
+
+#### L. **Pré-processamento dos dados de `job_opportunity_details.csv`**
+
+- **Tratamento de dados em formato de data**.
+- **Renomeação de colunas**: Alteração dos nomes das colunas 'job_opportunity_id' e ‘name’ para ‘id_vaga’ e ‘tipo_da_vaga’ respectivamente.
+
+  ---
+
+#### M. **Pré-processamento dos dados de `job_opportunity_etapas_inteli.csv`**
+
+- **Renomeação de colunas**: Alteração dos nomes das colunas ‘journey_id’, ‘job_opportunity_id’ e ‘descricao’ para ‘id_jornada’, ‘id_vaga’ e ‘descricao_jornada’.
+
+  ---
+
+#### N. **Pré-processamento dos dados de `journeys_inteli.csv`**
+
+- **Renomeação de colunas**: Alteração dos nomes das colunas 'journey_id', 'name', 'type', 'category_type', 'average_rating', 'ratings_count' para 'id_jornada', 'nome_jornada', 'tipo_jornada', 'categoria', 'media_valiacao' e 'qtd_avaliacao', respectivamente.
+- **Tratamento de dados em formato de data na coluna 'lancamento'**.
+
+---
+
+#### L. **Pré-processamento dos dados de `user_interests_inteli.csv`**
+
+- **Renomeação de colunas**: Alteração dos nomes das colunas 'user_id', 'name' para 'id_usuario' e 'area', respectivamente.
+
+---
+
+#### P. **Pré-processamento dos dados de `user_journeys_inteli.csv`**
+
+- **Tratamento de valores de datas na coluna ‘finish_time’**.
+- **Renomeação de colunas**: Alteração dos nomes das colunas 'user_id', 'journey_id', 'finish_time' para 'id_usuario', 'id_jornada' e 'termino', respectivamente.
+
+---
+
+#### Q. **Pré-processamento dos dados de `user_objectives_inteli.csv`**
+
+- **Renomeação de colunas**: Alteração dos nomes das colunas ‘user_id’ e ‘name’ para ‘id_usuario’ e ‘objetivo’, respectivamente.
+
+  ---
+
+#### R. **Pré-processamento dos dados de `merge_workstyle_superfit_gestores.csv`**
+
+- **Junção de dataframes**: Foi realizado o procedimento de junção (‘merge’) entre ‘workstyle’ e ‘superfit’.
+- Normalização dos dados.
+- Criação de duas colunas: 'nome' e 'logo'.
 
 #### 4.2.3. Hipóteses
 
