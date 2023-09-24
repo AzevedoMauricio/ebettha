@@ -472,16 +472,6 @@ Esta documentação oferece um guia detalhado para o pré-processamento. Cobrind
 
 - **Tratamento de dados faltantes**: Todos os valores NaN foram substituídos por 0, o que sugere que 0 pode ser interpretado como um estado padrão ou ausência de informação.
 
-```
-Apresentar quais foram as ações realizadas de limpeza (tratamento de
-missing values e remoção de outliers) e transformação (normalização
-e codificação) das colunas.
-Se houverem outliers, cite quais são e qual(is) correção(ões) será(ão)
-aplicada(s).
-
-Remova este bloco ao final
-```
-
 #### 4.2.3. Hipóteses
 
 ```
@@ -492,26 +482,6 @@ Remova este bloco ao final
 ```
 
 ### 4.3. Preparação dos Dados e Modelagem
-
-```
-Caso seu projeto seja Modelo Supervisionado, apresentar:
-a) Modelagem para o problema (proposta de features com a explicação
-   completa da linha de raciocínio).
-b) Métricas relacionadas ao modelo (conjunto de testes, pelo menos 3).
-c) Apresentar o primeiro modelo candidato, e uma discussão sobre os
-   resultados deste modelo (discussão sobre as métricas para esse
-   modelo candidato).
-
-Caso seu projeto seja Modelo Não-Supervisionado, apresentar:
-a) Modelagem para o problema (proposta de features com a explicação
-   completa da linha de raciocínio).
-b) Primeiro modelo candidato para o problema.
-c) Justificativa para a definição do K do modelo.
-d) Escolha de um tipo de sistema de recomendação e a justificativa
-   para essa escolha.
-
-Remova este bloco ao final
-```
 &emsp;  O K foi definido como os gestores, caracterizando esses clusters como parâmetros para relacionar os candidatos atuais e possíveis novos que mais se assemelham aos requisitos estabelecidos pelos mesmos.
 Os gestores foram escolhidos como o valor de K porque isso faz mais sentido para a equipe, permitindo que eles centralizem os pontos no gráfico, posicionando-os em torno dos clusters designados. Esses clusters, por sua vez, representam os gestores. Além disso, os pontos que representam os usuários também são dispostos no gráfico.
 &emsp;  Após a definição dos clusters, o próximo passo será aplicar o modelo de aprendizado não supervisionado K-means. Esse modelo agrupará os pontos de dados em clusters com base em sua semelhança. Uma vez feita a clusterização, será realizada uma otimização para refinar os clusters e a distribuição dos pontos.
@@ -542,16 +512,6 @@ Vamos utilizar a filtragem colaborativa porque, no entendimento das matrizes que
 &emsp; Ao todo foram 3 modelos desenvolvidos pelo grupo, sendo que apenas um apresenta hiperparâmetros, ou seja, apresenta configurações ajustáveis ​​que determinam o comportamento e o desempenho de Machine Learning.
 
 &emsp; Entretanto, esse modelo em específico não será utilizado para o desenvolvimento do projeto devido à decisão do grupo, com isso não teve a necessidade de otimizá-lo. Portanto, o modelo selecionado será um dos dois modelos que não possuem hiperparâmetros.
-```
-- Descrever e justificar a escolha da métrica de avaliação dos
-  modelos com base no que é mais importante para o problema ao
-  se medir a qualidade desses modelos;
-- Descrever ao menos três modelos candidatos, seus respectivos
-  algoritmos, seus tunings de hiperparâmetros e suas métricas
-  alcançadas;
-
-Remova este bloco ao final
-```
 
 ### 4.5. Avaliação
 
