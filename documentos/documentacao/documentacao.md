@@ -520,20 +520,28 @@ Este dicionário, bem como o notebook utilizado para obter as descrições menci
 &emsp; Após concluir o pré-processamento dos dados, foi possível formular algumas hipóteses.
 &emsp; A primeira hipótese diz respeito à quantidade de gestores considerados “especialistas” – aqueles que conhecem profundamente sobre determinado assunto – ou generalistas, gestores que possuem uma ampla gama de conhecimentos, mesmo que não sejam grandes experientes em cada uma dessas áreas. O gráfico abaixo ilustra o número de gestores em cada uma dessas categorias, sendo que os dados foram obtidos a partir dos resultados de teste “workstyle”.
 ````falta a imagem que consta na documentação````
+
 &emsp; Considerando que o “match” entre gestor e candidato dar-se-á quando ambos apresentarem o mesmo tipo de competência (especialista ou generalista) e considerando ainda que a quantidade de gestores especialistas e generalistas está bem distribuída, é possível concluir que o modelo que será construído por este grupo permitirá que parcelas semelhantes de candidatos especialistas e generalistas sejam indicados para a vaga. 
 Em seguida, analisou-se os resultados dos testes de “superfit” dos candidatos, buscando ver quais chaves mais se repetiam. As “chaves” indicam as competências mais fortes dos candidatos. O gráfico a seguir mostra a quantidade de candidatos em cada chave.
 ````falta a imagem que consta na documentação````
+
 &emsp; Investigando os resultados ilustrados no gráfico acima, é possível observar que os candidatos cuja chave é SF_SC (Pragmático e Original) são quase 25 vezes mais raros que candidatos consistentes e colaborativos (SF_DI). Isso leva a crer que, nos casos em que os gestores apresentarem um perfil consistente e colaborativo ou algum cuja quantidade de candidatos seja baixa, é necessário que o modelo seja capaz de avaliar candidatos que só possuam uma dessas competências. Isso porque, se avaliar poucos candidatos, o modelo pode acabar enviesado e não entregar, de fato, os melhores candidatos para indicação.
 Por fim, a última hipótese diz respeito a um possível viés presente em uma das bases de dados enviado pelo Bettha. Após plotar as chaves dos candidatos no teste de “lifestyle” em um gráfico, foi possível encontrar o gráfico mostrado abaixo.
 ````falta a imagem que consta na documentação````
+
 &emsp; Conforme observado acima, somente 5 candidatos foram classificados como clássicos e generalistas. Além disso, se a soma de todos os candidatos avaliados como clássicos for feita, o resultado ainda é uma quantidade ínfima (28 candidatos). Dessa forma, é necessário confirmar junto ao parceiro se essa amostra de dados reflete a população, pois, do contrário, os resultados do modelo aqui construído serão enviesados, assim como acontece em vários modelos que não recebem quantidades suficientes de dados para testes. 
+
 &emsp; É válido mencionar que essas hipóteses só poderão ser aceitas depois que o modelo for construído e os resultados puderem ser quantificados. Além disso, para conferir como os gráficos exibidos nesta seção foram elaborados, é necessário conferir os notebooks disponíveis no anexo III deste documento.
 
 ### 4.3. Preparação dos Dados e Modelagem
 &emsp;  O K foi definido como os gestores, caracterizando esses clusters como parâmetros para relacionar os candidatos atuais e possíveis novos que mais se assemelham aos requisitos estabelecidos pelos mesmos.
-Os gestores foram escolhidos como o valor de K porque isso faz mais sentido para a equipe, permitindo que eles centralizem os pontos no gráfico, posicionando-os em torno dos clusters designados. Esses clusters, por sua vez, representam os gestores. Além disso, os pontos que representam os usuários também são dispostos no gráfico.
+
+&emsp; Os gestores foram escolhidos como o valor de K porque isso faz mais sentido para a equipe, permitindo que eles centralizem os pontos no gráfico, posicionando-os em torno dos clusters designados. Esses clusters, por sua vez, representam os gestores. Além disso, os pontos que representam os usuários também são dispostos no gráfico.
+
 &emsp;  Após a definição dos clusters, o próximo passo será aplicar o modelo de aprendizado não supervisionado K-means. Esse modelo agrupará os pontos de dados em clusters com base em sua semelhança. Uma vez feita a clusterização, será realizada uma otimização para refinar os clusters e a distribuição dos pontos.
+
 &emsp;  Em seguida, será aplicado o modelo KNN (K-Vizinhos Mais Próximos) para analisar quais são os usuários mais próximos dos clusters. O KNN é um algoritmo de classificação que identifica a classe mais próxima de um ponto com base na distância. Nesse contexto, ele será usado para determinar quais usuários estão mais alinhados com as características dos clusters designados.
+
 &emsp; Essa abordagem permitirá que a equipe identifique os candidatos atuais e potenciais que melhor se encaixam nos requisitos estabelecidos pelos gestores, facilitando a tomada de decisões informadas em relação às contratações e alocações.
 
 Sistema de recomendação colaborativa:
@@ -557,35 +565,49 @@ No projeto mencionado neste documento será utilizado um sistema que se assemelh
 ### 4.4. Comparação de Modelos
 
 #### 4.4.1 Explicação Modelo 1: (Caso de prova)
-Este código Python visa avaliar a compatibilidade entre um candidato e um grupo de gestores com base em suas competências e características de trabalho. Ele utiliza várias bibliotecas, incluindo o Pandas para manipulação de dados, Math para cálculos matemáticos e Matplotlib para a criação de gráficos.
-O processo inicia com a leitura de um arquivo CSV chamado "gestores.csv" e o carrega em um DataFrame chamado "gestores". Uma coluna chamada "compatibilidade" é criada e inicializada com valores zero.
-Após a leitura dos dados dos gestores, são definidas listas de competências relevantes para "superfit" e "workstyle". Em seguida, é criado um DataFrame chamado "candidato" que representa um candidato específico com suas próprias pontuações nessas competências.
-Um gráfico de dispersão é gerado com as pontuações dos gestores nas competências "score_res" e "score_eng".
+&emsp; Este código Python visa avaliar a compatibilidade entre um candidato e um grupo de gestores com base em suas competências e características de trabalho. Ele utiliza várias bibliotecas, incluindo o Pandas para manipulação de dados, Math para cálculos matemáticos e Matplotlib para a criação de gráficos.
+
+&emsp; O processo inicia com a leitura de um arquivo CSV chamado "gestores.csv" e o carrega em um DataFrame chamado "gestores". Uma coluna chamada "compatibilidade" é criada e inicializada com valores zero.
+
+&emsp; Após a leitura dos dados dos gestores, são definidas listas de competências relevantes para "superfit" e "workstyle". Em seguida, é criado um DataFrame chamado "candidato" que representa um candidato específico com suas próprias pontuações nessas competências.
+
+&emsp; Um gráfico de dispersão é gerado com as pontuações dos gestores nas competências "score_res" e "score_eng".
 Uma função chamada "calcular_compatibilidade" é definida para calcular a compatibilidade entre o candidato e um gestor com base nas pontuações das competências.
 O código itera pelas competências dos gestores para calcular a compatibilidade com base em competências "superfit" e "workstyle", além de características do "workstyle".
-Após calcular a compatibilidade, a coluna "compatibilidade" é normalizada dividindo por 52 e arredondando para cima.
+
+&emsp; Após calcular a compatibilidade, a coluna "compatibilidade" é normalizada dividindo por 52 e arredondando para cima.
 O gráfico de dispersão é configurado com rótulos para os eixos x e y e recebe um título. O DataFrame "gestores" é ordenado por compatibilidade em ordem decrescente para exibir os gestores mais compatíveis primeiro.
-Finalmente, o código imprime o DataFrame "gestores" ordenado por compatibilidade, o que permite identificar os gestores mais compatíveis com o candidato com base nas pontuações em competências e características de trabalho. Esse processo ajuda a tomar decisões informadas ao escolher gestores que melhor se encaixam nas necessidades do candidato.
+
+&emsp; Finalmente, o código imprime o DataFrame "gestores" ordenado por compatibilidade, o que permite identificar os gestores mais compatíveis com o candidato com base nas pontuações em competências e características de trabalho. Esse processo ajuda a tomar decisões informadas ao escolher gestores que melhor se encaixam nas necessidades do candidato.
 
 #### 4.4.2 Explicação Modelo 2: (Modelo dos pares)
-Este código é um exemplo de um sistema de recomendação que utiliza informações de "superfit" para sugerir vagas de emprego com base na compatibilidade com os usuários. Ele começa importando a biblioteca pandas para carregar e manipular os dados de duas tabelas CSV: 'superfit.csv' e 'jobs.csv'.
+&emsp; Este código é um exemplo de um sistema de recomendação que utiliza informações de "superfit" para sugerir vagas de emprego com base na compatibilidade com os usuários. Ele começa importando a biblioteca pandas para carregar e manipular os dados de duas tabelas CSV: 'superfit.csv' e 'jobs.csv'.
 O código define duas classes, User e Job, que representam os usuários e as vagas de emprego, respectivamente. Cada classe possui um construtor que aceita várias características, como 'superfit_dis', 'superfit_sin', entre outras, para criar objetos que armazenam essas informações.
 
-Em seguida, o código percorre as linhas das tabelas de dados, cria objetos User e Job com base nessas informações e armazena esses objetos em listas users e jobs, respectivamente.
-Para calcular a similaridade e a compatibilidade entre usuários e vagas, são definidas funções como calculate_similarity e calculate_compatibility. Essas funções utilizam as características 'superfit' dos usuários e vagas para realizar cálculos.
-A função recommend_top_jobs é responsável por recomendar as melhores vagas para um usuário, com base na similaridade calculada. Um loop percorre todos os usuários, chamando essa função e imprimindo as melhores vagas recomendadas, juntamente com a compatibilidade percentual.
-Além disso, o código inclui cálculos específicos para um usuário fictício chamado 'User1' e imprime as melhores vagas recomendadas para esse usuário.
+&emsp; Em seguida, o código percorre as linhas das tabelas de dados, cria objetos User e Job com base nessas informações e armazena esses objetos em listas users e jobs, respectivamente.
+
+&emsp; Para calcular a similaridade e a compatibilidade entre usuários e vagas, são definidas funções como calculate_similarity e calculate_compatibility. Essas funções utilizam as características 'superfit' dos usuários e vagas para realizar cálculos.
+
+&emsp; A função recommend_top_jobs é responsável por recomendar as melhores vagas para um usuário, com base na similaridade calculada. Um loop percorre todos os usuários, chamando essa função e imprimindo as melhores vagas recomendadas, juntamente com a compatibilidade percentual.
+
+&emsp;Além disso, o código inclui cálculos específicos para um usuário fictício chamado 'User1' e imprime as melhores vagas recomendadas para esse usuário.
 A avaliação do modelo é realizada por meio da função evaluate_model, que calcula o erro quadrático médio (MSE) entre os escores reais de compatibilidade e os escores previstos com base na posição das vagas. Uma busca em grade (GridSearchCV) é usada para otimizar os hiperparâmetros do modelo, e os melhores hiperparâmetros e o melhor MSE são impressos na tela.
-Em resumo, este código demonstra um sistema de recomendação simples que usa informações de "superfit" para sugerir vagas de emprego com base na compatibilidade com os usuários e inclui uma busca em grade para otimizar o desempenho do modelo de recomendação.
+
+&emsp; Em resumo, este código demonstra um sistema de recomendação simples que usa informações de "superfit" para sugerir vagas de emprego com base na compatibilidade com os usuários e inclui uma busca em grade para otimizar o desempenho do modelo de recomendação.
 
 #### 4.4.3 Explicação Modelo 3: (KNN e K-means)
-Este código Python tem como objetivo criar um modelo que faz a correspondência de candidatos a gestores com base em suas habilidades. Ele utiliza várias bibliotecas, incluindo Pandas para análise de dados, NumPy para manipulação de matrizes, Matplotlib para visualização de dados e as classes KMeans e NearestNeighbors da biblioteca scikit-learn para criar e aplicar o modelo.
-A primeira parte do código envolve a leitura de dois arquivos CSV, 'olin-candidatos.csv' e 'olin-gestores.csv', que contêm dados sobre candidatos e gestores, respectivamente.
-Em seguida, uma lista chamada 'habilidades' é definida para especificar quais habilidades serão usadas no modelo. Os dados brutos dos candidatos e gestores são preparados, transformando-os em matrizes numpy.
-O código então utiliza o algoritmo K-Means para clusterizar os candidatos com base em suas habilidades. Cada gestor é associado ao cluster de candidatos mais próximo com base nas habilidades correspondentes. Isso é feito usando o algoritmo k-NN (k-Nearest Neighbors) para encontrar o candidato mais próximo dentro do mesmo cluster do gestor.
-Para cada gestor, o código imprime o ID do candidato mais próximo, identificando o melhor candidato para cada gestor com base nas habilidades.
+&emsp; Este código Python tem como objetivo criar um modelo que faz a correspondência de candidatos a gestores com base em suas habilidades. Ele utiliza várias bibliotecas, incluindo Pandas para análise de dados, NumPy para manipulação de matrizes, Matplotlib para visualização de dados e as classes KMeans e NearestNeighbors da biblioteca scikit-learn para criar e aplicar o modelo.
+
+&emsp; A primeira parte do código envolve a leitura de dois arquivos CSV, 'olin-candidatos.csv' e 'olin-gestores.csv', que contêm dados sobre candidatos e gestores, respectivamente.
+
+&emsp; Em seguida, uma lista chamada 'habilidades' é definida para especificar quais habilidades serão usadas no modelo. Os dados brutos dos candidatos e gestores são preparados, transformando-os em matrizes numpy.
+
+&emsp; O código então utiliza o algoritmo K-Means para clusterizar os candidatos com base em suas habilidades. Cada gestor é associado ao cluster de candidatos mais próximo com base nas habilidades correspondentes. Isso é feito usando o algoritmo k-NN (k-Nearest Neighbors) para encontrar o candidato mais próximo dentro do mesmo cluster do gestor.
+
+&emsp; Para cada gestor, o código imprime o ID do candidato mais próximo, identificando o melhor candidato para cada gestor com base nas habilidades.
 A última parte do código está atualmente comentada (mas pode ser ativada descomentando o código). Ela tem como objetivo criar gráficos de dispersão para visualizar a distribuição das habilidades dos candidatos e gestores. Cada gráfico de dispersão mostra a relação entre duas habilidades e usa cores diferentes para representar os clusters de candidatos. Os gestores são marcados em vermelho no gráfico como "x".
-No geral, este código é útil para criar um sistema de recomendação que associa candidatos a gestores com base em suas habilidades, ajudando a tomar decisões informadas no processo de seleção.
+
+&emsp; No geral, este código é útil para criar um sistema de recomendação que associa candidatos a gestores com base em suas habilidades, ajudando a tomar decisões informadas no processo de seleção.
 
 ### 4.5. Avaliação
 &emsp; Ao todo foram 3 modelos desenvolvidos pelo grupo, sendo que apenas um apresenta hiperparâmetros, ou seja, apresenta configurações ajustáveis ​​que determinam o comportamento e o desempenho de Machine Learning.
@@ -606,10 +628,38 @@ MAU, Maia. Colaborando com a formação de jovens em carreiras de tecnologia. **
 
 ## <a name="attachments"></a>Anexos
 
-```
-Utilize esta seção para anexar materiais como manuais de usuário,
-documentos complementares que ficaram grandes e não couberam no
-corpo do texto etc.
+### Anexo 1
+Tabela de referência para o dicionário de dados e notebook com estatística descritiva.
+| Arquivo                                | Link para o arquivo                                                       |
+| -------------------------------------- | ------------------------------------------------------------------------- |
+| Dicionário de dados do projeto Ebettha | [Dicionário de Dados](https://github.com/2023M3T8-Inteli/grupo2/tree/main/documentos/dicion%C3%A1rio%20de%20dados) |
+| Notebook com estatística descritiva    | [Notebook de Estatística Descritiva](https://github.com/2023M3T8-Inteli/grupo2/blob/main/notebooks/estatistica_descritiva.ipynb) |
 
-Remova este bloco ao final
-```
+### Anexo 2
+Tabela de referência para os notebooks utilizados no pré-processamento dos dados.
+| Tabela                               | Link para o arquivo                                                       |
+| ------------------------------------ | ------------------------------------------------------------------------- |
+| job_opportunity_workstyle_consolidates | [Notebook](https://github.com/2023M3T8-Inteli/grupo2/blob/main/notebooks/pre-processamento/df_jb_opp_workstyle.ipynb) |
+| job_opportunity_superfit_consolidates  | [Notebook](https://github.com/2023M3T8-Inteli/grupo2/blob/main/notebooks/pre-processamento/df_jb_opp_superfit.ipynb) |
+| user_superfit                         | [Notebook](https://github.com/2023M3T8-Inteli/grupo2/blob/main/notebooks/pre-processamento/df_user_superfit.ipynb) |
+| user_lifestyle                        | [Notebook](https://github.com/2023M3T8-Inteli/grupo2/blob/main/notebooks/pre-processamento/df_user_lifestyle.ipynb) |
+| user_tests                            | [Notebook](https://github.com/2023M3T8-Inteli/grupo2/blob/main/notebooks/pre-processamento/df_user_tests.ipynb) |
+| user_objectives                       | [Notebook](https://github.com/2023M3T8-Inteli/grupo2/blob/main/notebooks/pre-processamento/df_user_objectives.ipynb) |
+| job_opportunity_details, job_opportunity_etapas_inteli, journeys_inteli, user_interests_inteli, user_journeys_inteli, user_objectives_inteli| [Notebook](https://github.com/2023M3T8-Inteli/grupo2/blob/main/notebooks/pre-processamento/prep_dados_novos.ipynb) |
+
+### Anexo 3
+Tabela de referência para os notebooks utilizados na geração dos gráficos que embasaram as hipóteses.
+| Hipótese                         | Link para o arquivo                                                       |
+| -------------------------------- | ------------------------------------------------------------------------- |
+| Primeira (perfil gestores)      | [Notebook](https://github.com/2023M3T8-Inteli/grupo2/blob/main/notebooks/graficos/hipotese_quantidade.ipynb) |
+| Segunda (superfit)              | [Notebook](https://github.com/2023M3T8-Inteli/grupo2/blob/main/notebooks/graficos/hipotese_superfit.ipynb) |
+| Terceira (lifestyle)            | [Notebook](https://github.com/2023M3T8-Inteli/grupo2/blob/main/notebooks/graficos/hipotese_lifestyle.ipynb) |
+
+### Anexo 4
+Tabela de referência para os notebooks que contém os modelos desenvolvidos por este grupo.
+| Modelo                             | Link para o arquivo                                                       |
+| ---------------------------------- | ------------------------------------------------------------------------- |
+| Primeiro (protótipo de compatibilidade) | [Notebook](https://github.com/2023M3T8-Inteli/grupo2/blob/main/notebooks/modelos/primeiro_modelo.ipynb) |
+| Segundo (K-means com knn)          | Em desenvolvimento |
+| Terceiro                            | Em desenvolvimento |
+
