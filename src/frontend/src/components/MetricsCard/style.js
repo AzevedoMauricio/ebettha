@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const CardContainer = styled.div`
   border: 1px solid #e5e5e5;
   border-radius: 10px;
-  width: 25%;
+  width: 30%;
   display: flex;
   padding: 15px;
   text-align: left;
@@ -41,5 +41,6 @@ export const MetricInfo = styled.p`
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
+  width: 80%;
   color: grey;
 `;
