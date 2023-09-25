@@ -518,7 +518,7 @@ Este dicionário, bem como o notebook utilizado para obter as descrições menci
 #### 4.2.3. Hipóteses
 
 &emsp; Após concluir o pré-processamento dos dados, foi possível formular algumas hipóteses.
-&emsp; A primeira hipótese diz respeito à quantidade de gestores considerados “especialistas” – aqueles que conhecem profundamente sobre determinado assunto – ou generalistas, gestores que possuem uma ampla gama de conhecimentos, mesmo que não sejam grandes experientes em cada uma dessas áreas. O gráfico abaixo ilustra o número de gestores em cada uma dessas categorias, sendo que os dados foram obtidos a partir dos resultados de teste “workstyle”.
+A primeira hipótese diz respeito à quantidade de gestores considerados “especialistas” – aqueles que conhecem profundamente sobre determinado assunto – ou generalistas, gestores que possuem uma ampla gama de conhecimentos, mesmo que não sejam grandes experientes em cada uma dessas áreas. O gráfico abaixo ilustra o número de gestores em cada uma dessas categorias, sendo que os dados foram obtidos a partir dos resultados de teste “workstyle”.
 ````falta a imagem que consta na documentação````
 
 &emsp; Considerando que o “match” entre gestor e candidato dar-se-á quando ambos apresentarem o mesmo tipo de competência (especialista ou generalista) e considerando ainda que a quantidade de gestores especialistas e generalistas está bem distribuída, é possível concluir que o modelo que será construído por este grupo permitirá que parcelas semelhantes de candidatos especialistas e generalistas sejam indicados para a vaga. 
@@ -544,22 +544,22 @@ Por fim, a última hipótese diz respeito a um possível viés presente em uma d
 
 &emsp; Essa abordagem permitirá que a equipe identifique os candidatos atuais e potenciais que melhor se encaixam nos requisitos estabelecidos pelos gestores, facilitando a tomada de decisões informadas em relação às contratações e alocações.
 
-Sistema de recomendação colaborativa:
+&emsp;Sistema de recomendação colaborativa:
 Nesse tipo de mecanismo, os algoritmos utilizam aprendizado de máquina para prever interesses de usuários baseado em outros usuários que possuem comportamentos similares aos seus. Alguns pontos são considerados para realizar essas relações, como gostos, avaliações realizadas pelo usuário, tempo de consumo, entre outros, que diferem de acordo com o objetivo da recomendação.
 
 
-Sistema de recomendação baseada em conteúdo:
+&emsp;Sistema de recomendação baseada em conteúdo:
 Esse tipo de sistema recomenda ao usuário conteúdos semelhantes a outros que ele já possuiu alguma interação, seja por meio de alguma avaliação a até algo visualizado. O mecanismo cria uma espécie de perfil genérico de usuário conforme o que ele interagiu a fim de indicar temas similares.
 
-Sistema de recomendação hibrído:
+&emsp;Sistema de recomendação hibrído:
 O modelo de recomendação híbrida combina as abordagens por conteúdo e colaborativa. Já que ele combina essas duas formas de recomendações, a maneira mais fácil de poder combinar esses dois modelos são a produção dos rankings separados de recomendações assim, combinando-os para produzir uma lista final. 
 	Também tem a possibilidade de abordagens que podem combinar as duas em um único framework.
 
-Algoritmos não personalizados: 
+&emsp;Algoritmos não personalizados: 
 Vale destacar que os os algoritmos não personalizados servem para aqueles dados que foram inseridos de cara na plataforma, um exemplo claro disso é quando os usuários novos se cadastram na Netflix e por ser o primeiro cadastro, eles não tem interações implícitas ou explícitas e por conta disso, recebem recomendações mais gerais. O que são levadas em consideração nas recomendações primárias são: conteúdos mais acessados, geolocalização, preços, lançamentos etc.
 Por mais que essas recomendações não sejam personalizadas, a ideia por trás disso é incentivá-los a navegar e a começar a desenhar seu perfil padrão na plataforma.
 
-No projeto mencionado neste documento será utilizado um sistema que se assemelha mais ao sistema de recomendação colaborativa, ainda que não seja esse sistema propriamente dito. Isso porque as recomendações de vagas para um usuário candidato dependerão de como os outros usuários gestores se saíram nos testes. Dessa forma, a colaboração dos usuários da plataforma se dá pelo resultado dos testes genius e lifestyle/workstyle.
+&emsp;No projeto mencionado neste documento será utilizado um sistema que se assemelha mais ao sistema de recomendação colaborativa, ainda que não seja esse sistema propriamente dito. Isso porque as recomendações de vagas para um usuário candidato dependerão de como os outros usuários gestores se saíram nos testes. Dessa forma, a colaboração dos usuários da plataforma se dá pelo resultado dos testes genius e lifestyle/workstyle.
 
 
 ### 4.4. Comparação de Modelos
