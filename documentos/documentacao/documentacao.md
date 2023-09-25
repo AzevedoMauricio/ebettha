@@ -304,6 +304,14 @@
 
 <p style="text-align: center">Fonte: Elaborada pelos autores</p>
 
+&emsp; Como já visto, a matriz de risco é uma ferramenta utilizada para identificar, avaliar e priorizar os riscos associados a um projeto, processo, ou qualquer atividade que envolva incertezas.
+&emsp; Agora, pode-se analisar com base no final do projeto, como que a nova matriz de risco se apresenta: 
+
+<div style="text-align: center">Figura 06 - Matriz de riscos final do projeto - Projeto Ebettha</div>
+<img src="./../images/Matriz_de_risco_final_do_projeto.png" alt="Matriz de riscos 2 - Projeto Ebettha" >
+<div style="text-align: center">Fonte: Elaborado pelos autores</div>
+
+
 #### 4.1.6. Personas
 
 &emsp; O processo de definição das personas iniciou-se com a definição dos stakeholders. Para isso, pensou-se em quem seria afetado direta e indiretamente pelo desenvolvimento deste projeto. Assim, foi possível chegar na seguinte lista:
