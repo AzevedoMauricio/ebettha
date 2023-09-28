@@ -30,7 +30,7 @@
 
 ## 📝 Descrição
 
-Curta descrição sobre o que o seu projeto faz (problema a ser resolvido e solução proposta).
+O projeto EBettha se propõe a ser um modelo preditivo de matches entre gestores e candidatos.
 
 ## 📁 Estrutura de pastas
 
