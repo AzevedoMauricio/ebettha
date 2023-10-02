@@ -309,9 +309,8 @@
 &emsp; Agora, pode-se analisar com base no final do projeto, como que a nova matriz de risco se apresenta: 
 
 <div style="text-align: center">Figura 06 - Matriz de riscos final do projeto - Projeto Ebettha</div>
-<img src="./outros/images/Matriz_de_risco_final_do_projeto.png" alt="Matriz de riscos 2 - Projeto Ebettha" >
+<img src="./outros/images/Matriz_de_risco.png" alt="Matriz de riscos 2 - Projeto Ebettha" >
 <div style="text-align: center">Fonte: Elaborado pelos autores</div>
-
 
 #### 4.1.6. Personas
 
@@ -559,17 +558,26 @@ Medidas de segurança são implementadas para proteger os dados pessoais contra 
 #### 4.2.3. Hipóteses
 
 &emsp; Após concluir o pré-processamento dos dados, foi possível formular algumas hipóteses. A primeira delas diz respeito à quantidade de gestores considerados “especialistas” – aqueles que conhecem profundamente sobre determinado assunto – ou generalistas, gestores que possuem uma ampla gama de conhecimentos, mesmo que não sejam grandes experientes em cada uma dessas áreas. O gráfico abaixo ilustra o número de gestores em cada uma dessas categorias, sendo que os dados foram obtidos a partir dos resultados de teste “workstyle”.
-`falta a imagem que consta na documentação`
+
+<div style="text-align: center">Figura 14 - Comparação entre Score Specialist e Score Generalist </div>
+<img src="./outros/images/grafico_3.png" alt="Comparação entre Score Specialist e Score Generalist" >
+<div style="text-align: center">Fonte: Elaborado pelos autores.</div>
 
 &emsp; Considerando que o “match” entre gestor e candidato dar-se-á quando ambos apresentarem o mesmo tipo de competência (especialista ou generalista) e considerando ainda que a quantidade de gestores especialistas e generalistas está bem distribuída, é possível concluir que o modelo que será construído por este grupo permitirá que parcelas semelhantes de candidatos especialistas e generalistas sejam indicados para a vaga.
 
 &emsp; Em seguida, analisou-se os resultados dos testes de “superfit” dos candidatos, buscando ver quais chaves mais se repetiam. As “chaves” indicam as competências mais fortes dos candidatos. O gráfico a seguir mostra a quantidade de candidatos em cada chave.
-`falta a imagem que consta na documentação`
+
+<div style="text-align: center">Figura 15 - Top 10 chaves que mais se repetem </div>
+<img src="./outros/images/grafico_1.png" alt="Top 10 chaves que mais se repetem" >
+<div style="text-align: center">Fonte: Elaborado pelos autores.</div>
 
 &emsp; Investigando os resultados ilustrados no gráfico acima, é possível observar que os candidatos cuja chave é SF_SC (Pragmático e Original) são quase 25 vezes mais raros que candidatos consistentes e colaborativos (SF_DI). Isso leva a crer que, nos casos em que os gestores apresentarem um perfil consistente e colaborativo ou algum cuja quantidade de candidatos seja baixa, é necessário que o modelo seja capaz de avaliar candidatos que só possuam uma dessas competências. Isso porque, se avaliar poucos candidatos, o modelo pode acabar enviesado e não entregar, de fato, os melhores candidatos para indicação.
 
 &emsp; Por fim, a última hipótese diz respeito a um possível viés presente em uma das bases de dados enviado pelo Bettha. Após plotar as chaves dos candidatos no teste de “lifestyle” em um gráfico, foi possível encontrar o gráfico mostrado abaixo.
 `falta a imagem que consta na documentação`
+<div style="text-align: center">Figura 16 - Comparação entre Score Specialist e Score Generalist </div>
+<img src="./outros/images/frequencia_candidatos.png" alt="Comparação entre Score Specialist e Score Generalist" >
+<div style="text-align: center">Fonte: Elaborado pelos autores.</div>
 
 &emsp; Conforme observado acima, somente 5 candidatos foram classificados como clássicos e generalistas. Além disso, se a soma de todos os candidatos avaliados como clássicos for feita, o resultado ainda é uma quantidade ínfima (28 candidatos). Dessa forma, é necessário confirmar junto ao parceiro se essa amostra de dados reflete a população, pois, do contrário, os resultados do modelo aqui construído serão enviesados, assim como acontece em vários modelos que não recebem quantidades suficientes de dados para testes.
 
