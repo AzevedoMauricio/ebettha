@@ -574,7 +574,7 @@ Medidas de segurança são implementadas para proteger os dados pessoais contra 
 &emsp; Investigando os resultados ilustrados no gráfico acima, é possível observar que os candidatos cuja chave é SF_SC (Pragmático e Original) são quase 25 vezes mais raros que candidatos consistentes e colaborativos (SF_DI). Isso leva a crer que, nos casos em que os gestores apresentarem um perfil consistente e colaborativo ou algum cuja quantidade de candidatos seja baixa, é necessário que o modelo seja capaz de avaliar candidatos que só possuam uma dessas competências. Isso porque, se avaliar poucos candidatos, o modelo pode acabar enviesado e não entregar, de fato, os melhores candidatos para indicação.
 
 &emsp; Por fim, a última hipótese diz respeito a um possível viés presente em uma das bases de dados enviado pelo Bettha. Após plotar as chaves dos candidatos no teste de “lifestyle” em um gráfico, foi possível encontrar o gráfico mostrado abaixo.
-`falta a imagem que consta na documentação`
+
 <div style="text-align: center">Figura 16 - Comparação entre Score Specialist e Score Generalist </div>
 <img src="./outros/images/frequencia_candidatos.png" alt="Comparação entre Score Specialist e Score Generalist" >
 <div style="text-align: center">Fonte: Elaborado pelos autores.</div>
