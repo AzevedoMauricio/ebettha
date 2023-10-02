@@ -71,7 +71,7 @@ Para replicação (reexecução dos códigos), o botão `Open in Colab` disponí
     * Preenchimento de parte da documentação relativa às hipóteses, exploração e pré-processamento de dados.
 * 0.3.0 - 10/09/2023
     * Lançamento do primeiro modelo (protótipo) de compatibilidade entre gestor e candidato.
-* 0.3.1 - 24/09/2023
+* 0.4.0 - 24/09/2023
     * Lançamento dos três melhores modelos de compatibilidade entre gestor e candidato.
 
 ## 📋 Licença/License
