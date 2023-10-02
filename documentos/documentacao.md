@@ -305,6 +305,7 @@
 <p style="text-align: center">Fonte: Elaborada pelos autores</p>
 
 &emsp; Como já visto, a matriz de risco é uma ferramenta utilizada para identificar, avaliar e priorizar os riscos associados a um projeto, processo, ou qualquer atividade que envolva incertezas.
+
 &emsp; Agora, pode-se analisar com base no final do projeto, como que a nova matriz de risco se apresenta: 
 
 <div style="text-align: center">Figura 06 - Matriz de riscos final do projeto - Projeto Ebettha</div>
