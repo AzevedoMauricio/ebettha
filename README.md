@@ -42,17 +42,68 @@ Dentre os arquivos presentes na raiz do projeto, definem-se:
 
 - <b>notebooks</b>: todos os Jupyter Notebooks criados na plataforma Colab para desenvolvimento do projeto.
 
+- <b>src/frontend</b>: os arquivos que compõem o frontend do nosso MVP.
+
 A estrutura de pastas se encontra distribuída da seguinte forma:
+
 |--> documentos<br>
-&emsp;| --> dicionário de dados _(Este diretório contém um documento com informação sobre os dados utilizados no projeto. Disponível em formatos PDF e DOCX)_ <br>
-&emsp; &emsp;| --> Dicionário de dados.docx <br>
-&emsp; &emsp;| --> Dicionário de dados.pdf <br>
-&emsp;| --> documentacao _(Diretório que armazena a documentação do projeot em formatos PDF, DOCX e MD)_ <br>
-&emsp; &emsp;| --> Documentação.docx <br>
-&emsp; &emsp;| --> Documentação.pdf <br>
-&emsp; &emsp;| --> documentacao.md <br>
-&emsp;| --> images _(Armazena as imagens utilizadas na documentação)_ <br>
 &emsp;| --> outros _(Contém outros documentos relevantes para o projeto)_ <br>
+&emsp; &emsp;| --> dicionário de dados <br>
+&emsp; &emsp; &emsp;| --> Dicionário de dados.docx <br>
+&emsp; &emsp; &emsp;| --> Dicionário de dados.pdf <br>
+&emsp; &emsp;| --> documentacao <br>
+&emsp; &emsp; &emsp;| --> antigos <br>
+&emsp; &emsp; &emsp;| --> Documentação.docx <br>
+&emsp; &emsp; &emsp;| --> Documentação.docx.pdf <br>
+&emsp; &emsp;| --> images <br>
+&emsp; &emsp;| --> instrução.txt <br>
+&emsp; &emsp;| --> inteli.png <br>
+&emsp;| --> documentacao.md <br>
+
+|--> notebooks<br>
+&emsp;| --> outros _(Este diretório contém os arquivos referentes aos modelos utilizados no desenvolvimento do projeto)_ <br>
+&emsp; &emsp;| --> graficos <br>
+&emsp; &emsp; &emsp;| --> hipotese_lifestyle.ipynb <br>
+&emsp; &emsp; &emsp;| --> hipotese_quantidade.ipynb <br>
+&emsp; &emsp; &emsp;| --> hipotese_superfit.ipynb <br>
+&emsp; &emsp;| --> modelos <br>
+&emsp; &emsp; &emsp;| --> Modelo_dos_pares.ipynb <br>
+&emsp; &emsp; &emsp;| --> kmeans-knn.ipynb <br>
+&emsp; &emsp;| --> pre-processamento <br>
+&emsp; &emsp; &emsp;| --> df_jb_opp_superfit.ipynb <br>
+&emsp; &emsp; &emsp;| --> df_jb_opp_workstyle.ipynb <br>
+&emsp; &emsp; &emsp;| --> df_user_lifestyle.ipynb <br>
+&emsp; &emsp; &emsp;| --> df_user_objectives.ipynb <br>
+&emsp; &emsp; &emsp;| --> df_user_superfit.ipynb <br>
+&emsp; &emsp; &emsp;| --> df_user_tests.ipynb <br>
+&emsp; &emsp;| --> estatistica_descritiva.ipynb <br>
+&emsp;| --> prep_dados_novos.ipynb <br>
+&emsp;| --> sistema-de-compatibilidade.ipynb <br>
+
+|--> src/frontend<br>
+&emsp;| --> public _(Este diretório contém os arquivos do frontend do projeto)_ <br>
+&emsp; &emsp;| --> favicon.ico <br>
+&emsp; &emsp;| --> index.html <br>
+&emsp; &emsp;| --> logo192.png <br>
+&emsp; &emsp;| --> logo512.png <br>
+&emsp; &emsp;| --> manifest.json <br>
+&emsp; &emsp;| --> robots.txt <br>
+&emsp;| --> src <br>
+&emsp; &emsp;| --> assets <br>
+&emsp; &emsp;| --> components <br>
+&emsp; &emsp;| --> pages/HomePage <br>
+&emsp; &emsp;| --> services <br>
+&emsp; &emsp;| --> App.css <br>
+&emsp; &emsp;| --> App.js <br>
+&emsp; &emsp;| --> index.js <br>
+&emsp;| --> .gitignore <br>
+&emsp;| --> package-lock.json <br>
+&emsp;| --> package.json <br>
+
+|--> src/backend _(Este diretório contém os arquivos do backend do projeto)_ <br>
+&emsp;| --> api.py <br>
+
+
 
 ## 💻 Execução dos projetos
 
