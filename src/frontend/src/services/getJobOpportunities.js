@@ -34,7 +34,7 @@ export async function GetJobOpportunities(data) {
     };
 
     return axios
-      .post("http://127.0.0.1:5000/calculate_compatibility", mockData)
+      .post("http://15.229.9.120:5000/calculate_compatibility", mockData)
       .then(function (response) {
         // Manipule a resposta bem-sucedida aqui
         return response.data;
