@@ -659,12 +659,17 @@ A última parte do código está atualmente comentada (mas pode ser ativada desc
 ## <a name="c5"></a>5. Conclusões e Recomendações
 
 &emsp;Ao final de cinco sprints de trabalho, conseguimos desenvolver um modelo não-supervisionado que realiza uma comparação entre os candidatos e as vagas disponíveis na plataforma do Bettha. Esse modelo utiliza a distância euclidiana como métrica para avaliar a similaridade entre as competências dos candidatos e dos respectivos gestores das vagas, considerando todas as competências em pares.
-&emsp;Com base nessa análise, o modelo é capaz de gerar um ranking de porcentagens que representa a compatibilidade das características dos candidatos com os requisitos exigidos pelas empresas correspondentes. Essa pontuação de compatibilidade é uma ferramenta valiosa para os candidatos e as empresas, pois ajuda a identificar as correspondências mais promissoras e relevantes.
- Essa abordagem não-supervisionada é resultado de um esforço colaborativo ao longo de cinco sprints, demonstrando nosso compromisso com a melhoria contínua e a entrega de soluções inovadoras para o nosso parceiro. 
 
-&emsp;A inclusão de novos dados proporcionará a possibilidade de novas abordagens algorítmicas como a criação de um modelo supervisionado através da análise de dados históricos. A diversidade de dados é fundamental para lidar com situações variadas e desafios reais. Ao abordar o problema de diferentes formas é possível minimizar vieses. 
+&emsp;Com base nessa análise, o modelo é capaz de gerar um ranking de porcentagens que representa a compatibilidade das características dos candidatos com os requisitos exigidos pelas empresas correspondentes. Essa pontuação de compatibilidade é uma ferramenta valiosa para os candidatos e as empresas, pois ajuda a identificar as correspondências mais promissoras e relevantes.
+
+&emsp;Essa abordagem não-supervisionada é resultado de um esforço colaborativo ao longo de cinco sprints, demonstrando nosso compromisso com a melhoria contínua e a entrega de soluções inovadoras para o nosso parceiro. 
+
+&emsp;A inclusão de novos dados proporcionará a possibilidade de novas abordagens algorítmicas como a criação de um modelo supervisionado através da análise de dados históricos. A diversidade de dados é fundamental para lidar com situações variadas e desafios reais. Ao abordar o problema de diferentes formas é possível minimizar vieses.
+
 &emsp;Outra estratégia valiosa é explorar diferentes aplicações do modelo para alcançar novos resultados. Nesse sentido, é possível considerar o oferecimento de recomendações de cursos com base no histórico educacional, em interesses pessoais e nos objetivos de carreira dos candidatos. Dessa forma, seria possível agregar valor à plataforma apenas adaptando o modelo, tornando-a, assim, mais abrangente e útil para os usuários.
+
 Quando se trata da implementação das novas funcionalidades na plataforma, é importante que a identidade gráfica seja respeitada. Assim, garantir que as mudanças não destoam do design atribuído ao site é crucial para manter a consistência e a usabilidade para os usuários existentes. Isso contribuirá significativamente para uma experiência de usuário positiva, criando um sentimento de familiaridade ao usar a plataforma.
+
 &emsp;Em resumo, a criação de um modelo supervisionado, a inclusão de novos dados, a exploração de diferentes utilizações do modelo e a manutenção da identidade gráfica são passos essenciais para aprimorar a eficácia e a usabilidade da plataforma. Essas melhorias não apenas aumentarão a satisfação dos usuários, mas também fortalecerão a competitividade da empresa no mercado.
 
 ## <a name="c6"></a>6. Referências
