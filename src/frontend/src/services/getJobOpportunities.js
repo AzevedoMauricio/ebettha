@@ -4,7 +4,7 @@ import axios from "axios";
 export async function GetJobOpportunities(data) {
   if (data) {
     return axios
-      .post("https://15.229.70.174:5000/calculate_compatibility", data)
+      .post("http://15.229.70.174:5000/calculate_compatibility/", data)
       .then(function (response) {
         // Manipule a resposta bem-sucedida aqui
         return response.data;
@@ -34,7 +34,7 @@ export async function GetJobOpportunities(data) {
     };
 
     return axios
-      .post("https://15.229.70.174:5000/calculate_compatibility", mockData)
+      .post("http://15.229.70.174:5000/calculate_compatibility/", mockData)
       .then(function (response) {
         // Manipule a resposta bem-sucedida aqui
         return response.data;
